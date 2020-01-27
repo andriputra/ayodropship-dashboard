@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap");
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Karla', sans-serif;
+  color: #404040; }
+
+h1 {
+  font-size: 36px !important;
+  font-weight: 600 !important; }
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 600 !important; }
+
+p {
+  color: #808080; }
+
+#dashboard {
+  position: relative; }
+  #dashboard .side-menu {
+    position: fixed;
+    left: 0px;
+    height: 100vh;
+    width: 145px;
+    background-color: #00877a; }
+    #dashboard .side-menu-list-sticky {
+      min-height: 80px;
+      text-align: center; }
+    #dashboard .side-menu-list-menu-listings {
+      padding-left: 0px;
+      margin-bottom: 0px;
+      list-style: none; }
+      #dashboard .side-menu-list-menu-listings .menu-item {
+        min-height: 100px;
+        text-align: center; }
+        #dashboard .side-menu-list-menu-listings .menu-item-name {
+          margin-bottom: 0px;
+          font-size: 12px;
+          color: #ffffff; }
+        #dashboard .side-menu-list-menu-listings .menu-item:hover {
+          cursor: pointer;
+          background-color: #16ad9e; }
+  #dashboard .content {
+    background-color: #f4f4f4;
+    height: 100%;
+    margin-left: 145px; }
+    #dashboard .content .top-bar {
+      background-color: #ffffff; }
+      #dashboard .content .top-bar-search {
+        text-align: right;
+        padding: 10px 30px; }
+        #dashboard .content .top-bar-search .field-input {
+          border-top: none;
+          border-right: none;
+          border-bottom: none;
+          height: 45px;
+          box-shadow: none;
+          padding: 10px 20px 10px 25px;
+          border-color: #dfdfdf;
+          border-width: 1px;
+          font-size: 16px;
+          color: #404040;
+          font-family: 'Karla', sans-serif; }
+          #dashboard .content .top-bar-search .field-input:hover, #dashboard .content .top-bar-search .field-input:focus, #dashboard .content .top-bar-search .field-input:active {
+            outline: none; }
+    #dashboard .content .bottom-bar {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      position: fixed;
+      bottom: 0px;
+      width: 100%; }
+      #dashboard .content .bottom-bar .copyright {
+        margin-bottom: 0px;
+        font-size: 16px; }
+    #dashboard .content .content-area {
+      padding: 40px 40px 120px; }
+      #dashboard .content .content-area .page-title {
+        margin-bottom: 20px; }
+      #dashboard .content .content-area .profile-box {
+        background-color: #ffffff;
+        padding: 40px;
+        margin-bottom: 30px; }
+        #dashboard .content .content-area .profile-box .button {
+          height: 50px;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          color: #ffffff;
+          font-size: 16px;
+          font-family: 'Karla', sans-serif;
+          font-weight: 600; }
+          #dashboard .content .content-area .profile-box .button.btn-general {
+            background-color: #44b265; }
+          #dashboard .content .content-area .profile-box .button:hover {
+            background-color: #16ad9e; }
+        #dashboard .content .content-area .profile-box .image-profile {
+          width: 100px;
+          height: 100px;
+          border: 1px solid #dfdfdf;
+          border-radius: 50%;
+          display: inline-block;
+          padding: 7px;
+          text-align: center; }
+          #dashboard .content .content-area .profile-box .image-profile img {
+            width: 100px;
+            height: auto; }
+      #dashboard .content .content-area .dashboard-feature {
+        margin-bottom: 30px; }
+        #dashboard .content .content-area .dashboard-feature .box-feature {
+          min-height: 300px;
+          background-color: #ffffff;
+          padding: 45px; }
+      #dashboard .content .content-area .dashboard-cta-commission {
+        padding: 20px;
+        background-color: #00877a; }
+        #dashboard .content .content-area .dashboard-cta-commission .cta-desc {
+          color: #96cec9; }
+      #dashboard .content .content-area .dashboard-cta-upgrade {
+        padding: 20px;
+        background-color: #44b265; }
+        #dashboard .content .content-area .dashboard-cta-upgrade .cta-desc {
+          color: #ffffff; }
+      #dashboard .content .content-area .dashboard-cta .cta-title {
+        color: #ffffff;
+        font-family: 'Karla', sans-serif;
+        font-size: 30px; }
+      #dashboard .content .content-area .dashboard-cta .button.btn-small {
+        height: 42px;
+        border: none;
+        background-color: #ffcc00;
+        font-size: 12px;
+        min-width: 134px;
+        border-radius: 5px;
+        color: #00877a;
+        font-weight: 600;
+        font-family: 'Karla', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
