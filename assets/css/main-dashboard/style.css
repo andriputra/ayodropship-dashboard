@@ -35,6 +35,8 @@ a {
       #dashboard .side-menu-list-menu-listings .menu-item {
         min-height: 100px;
         text-align: center; }
+        #dashboard .side-menu-list-menu-listings .menu-item p {
+          margin-bottom: 0px; }
         #dashboard .side-menu-list-menu-listings .menu-item-name {
           margin-bottom: 0px;
           font-size: 12px;
@@ -42,6 +44,8 @@ a {
         #dashboard .side-menu-list-menu-listings .menu-item:hover {
           cursor: pointer;
           background-color: #16ad9e; }
+        #dashboard .side-menu-list-menu-listings .menu-item a:hover {
+          text-decoration: none; }
   #dashboard .content {
     background-color: #f4f4f4;
     height: 100%;
@@ -79,7 +83,8 @@ a {
         margin-bottom: 0px;
         font-size: 16px; }
     #dashboard .content .content-area {
-      padding: 100px 40px 120px; }
+      padding: 100px 40px 120px;
+      min-height: 100vh; }
       #dashboard .content .content-area .page-title {
         margin-bottom: 20px; }
       #dashboard .content .content-area .profile-box {

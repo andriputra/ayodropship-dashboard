@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Karla:400,400i,700,700i&display=swap");
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Karla', sans-serif;
+  color: #404040; }
+
+h1 {
+  font-size: 36px !important;
+  font-weight: 600 !important; }
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 600 !important; }
+
+p {
+  color: #808080; }
+
+a {
+  font-family: 'Karla', sans-serif; }
+
+#Afiliasi.content-area h2.afiliasi {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px !important; }
+#Afiliasi.content-area .afiliasi-page {
+  padding: 60px;
+  background-color: #ffffff; }
+  #Afiliasi.content-area .afiliasi-page-title {
+    margin-bottom: 20px; }
+    #Afiliasi.content-area .afiliasi-page-title h2 {
+      font-size: 22px !important;
+      margin-bottom: 0px; }
+  #Afiliasi.content-area .afiliasi-page-stats {
+    margin-bottom: 30px; }
+    #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box {
+      background-color: #ffffff;
+      border: 1px solid #e9e9e9;
+      padding: 20px; }
+      #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box .click-box {
+        text-align: right; }
+        #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box .click-box p {
+          margin-bottom: 0px;
+          font-family: 'Karla', sans-serif; }
+          #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box .click-box p.number {
+            font-weight: 600;
+            color: #404040;
+            font-size: 30px;
+            line-height: 30px; }
+          #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box .click-box p.text {
+            font-size: 14px; }
+  #Afiliasi.content-area .afiliasi-page-refer {
+    position: relative;
+    margin-bottom: 30px; }
+    #Afiliasi.content-area .afiliasi-page-refer-input {
+      padding: 16px 20px;
+      border: 1px solid #d6d6d6;
+      background-color: #f4f4f4; }
+      #Afiliasi.content-area .afiliasi-page-refer-input p {
+        margin-bottom: 0px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #404040; }
+    #Afiliasi.content-area .afiliasi-page-refer-copy {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      display: inline-block;
+      width: 60px;
+      height: 100%;
+      text-align: center;
+      line-height: 67px;
+      background-color: #ffffff;
+      border: 1px solid #d6d6d6; }
+  #Afiliasi.content-area .afiliasi-page-leads {
+    margin-bottom: 30px; }
+    #Afiliasi.content-area .afiliasi-page-leads-box {
+      padding: 40px;
+      border: 1px solid #d6d6d6;
+      background-color: #f4f4f4; }
+      #Afiliasi.content-area .afiliasi-page-leads-box p {
+        margin-bottom: 0px;
+        text-align: right; }
+        #Afiliasi.content-area .afiliasi-page-leads-box p.info {
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 28px;
+          color: #404040; }
+        #Afiliasi.content-area .afiliasi-page-leads-box p.desc {
+          color: #808080; }
+  #Afiliasi.content-area .afiliasi-page-information .blog-update {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    #Afiliasi.content-area .afiliasi-page-information .blog-update p {
+      margin-bottom: 0px;
+      font-size: 16px; }
+      #Afiliasi.content-area .afiliasi-page-information .blog-update p.title {
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #404040; }
+    #Afiliasi.content-area .afiliasi-page-information .blog-update a {
+      color: #44b265;
+      font-weight: 600;
+      font-size: 14px; }
+      #Afiliasi.content-area .afiliasi-page-information .blog-update a:hover {
+        text-decoration: none;
+        color: #ffcc00; }
+  #Afiliasi.content-area .afiliasi-page-information .last .blog-update {
+    border-bottom: none; }
+
+/*# sourceMappingURL=afiliasi.css.map */
