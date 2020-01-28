@@ -28,15 +28,31 @@ a {
     width: 145px;
     background-color: #00877a; }
     #dashboard .side-menu-list-sticky {
-      min-height: 80px;
+      min-height: 70px;
       text-align: center; }
     #dashboard .side-menu-list-menu-listings {
       padding-left: 0px;
       margin-bottom: 0px;
       list-style: none; }
       #dashboard .side-menu-list-menu-listings .menu-item {
-        min-height: 100px;
-        text-align: center; }
+        min-height: 80px;
+        text-align: center;
+        position: relative; }
+        #dashboard .side-menu-list-menu-listings .menu-item::after {
+          content: '';
+          height: 1px;
+          width: 60px;
+          background-color: #16ad9e;
+          position: absolute;
+          bottom: 0px;
+          left: 28%; }
+        #dashboard .side-menu-list-menu-listings .menu-item:last-child::after {
+          content: none; }
+        #dashboard .side-menu-list-menu-listings .menu-item a {
+          display: block; }
+          #dashboard .side-menu-list-menu-listings .menu-item a.active {
+            min-height: 80px;
+            background-color: #13ad9e; }
         #dashboard .side-menu-list-menu-listings .menu-item p {
           margin-bottom: 0px; }
         #dashboard .side-menu-list-menu-listings .menu-item-name {

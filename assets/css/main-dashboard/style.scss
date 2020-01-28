@@ -11,7 +11,7 @@
         background-color: $green;
         &-list{
             &-sticky{
-                min-height: 80px;
+                min-height: 70px;
                 text-align: center;
             }
             &-menu{
@@ -20,8 +20,30 @@
                     margin-bottom: 0px;
                     list-style: none;
                     .menu-item{
-                        min-height: 100px;
+                        min-height: 80px;
                         text-align: center;
+                        position: relative;
+                        &::after{
+                            content: '';
+                            height: 1px;
+                            width: 60px;
+                            background-color: #16ad9e;
+                            position: absolute;
+                            bottom: 0px;
+                            left: 28%;
+                        }
+                        &:last-child{
+                            &::after{
+                                content: none;
+                            }
+                        }
+                        a{
+                            display: block;
+                            &.active{
+                                min-height: 80px;
+                                background-color: #13ad9e;
+                            }
+                        }
                         p{
                             margin-bottom: 0px;
                         }
