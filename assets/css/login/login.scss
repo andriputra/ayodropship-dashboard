@@ -1,0 +1,130 @@
+@import '../color/color-style.scss';
+
+#Login{
+    .login-box{
+        display: flex;
+        &-half{
+            flex: 0 0 50%;
+            position: relative;
+            height: 100vh;
+            &-centered{
+                transform: translate(-50%, -50%);
+                position: absolute;
+                top: 50%;
+                left: 50%;    
+                width: 400px;
+            }
+            &.green-area{
+                background: rgb(7,125,114);
+                background: linear-gradient(315deg, rgba(7,125,114,1) 0%, rgba(63,174,102,1) 100%);
+                text-align: center;
+                .login-green-area{
+                    background-image: url('../img/silhuetayo.png');
+                    background-position: 0px 0px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 55%;
+                    width: 100%;
+                    position: absolute;
+                    transform: translate(-42%, -50%);
+                    top: 65%;
+                    left: 50%; 
+                }
+                .logo-ayo{
+                    margin-bottom: 50px;
+                }
+                .login-text{
+                    color: $white;
+                    font-family: 'Barlow', sans-serif;
+                    font-weight: 400 !important;
+                    margin-bottom: 30px;
+                }
+                .login-desc{
+                    margin-bottom: 0px;
+                    font-family: 'Barlow', sans-serif;
+                    font-weight: 400 !important;
+                    font-size: 12px;
+                    color: $white;
+                }
+            }
+            &.form-area{
+                background-color: $white;
+                .login-form{
+                    &-title{
+                        font-family: 'Karla', sans-serif;
+                        color: $black;
+                        margin-bottom: 30px;
+                    }
+                    form{
+                        &.login-form{
+                            label{
+                                font-family: 'Karla', sans-serif;
+                                font-size: 14px;
+                                color: $textblack;
+                                margin-bottom: 0px;
+                            }
+                            .form-control{
+                                border-width: 0px 0px 1px 0px;
+                                border-color: $textblack;
+                                border-radius: 0px;
+                                &:active, &:focus{
+                                    outline: none;
+                                    box-shadow: none;
+                                }
+                            }
+                            .button{
+                                margin-bottom: 20px;
+                                &.btn-submit{
+                                    background-color: $primarygreen;
+                                    width: 100%;
+                                    box-shadow: none;
+                                    border: none;
+                                    border-radius: 5px;
+                                    height: 40px;
+                                    color: $white;
+                                    font-family: 'Karla', sans-serif;
+                                    font-weight: 600;
+                                    width: 100%;
+                                    &:hover{
+                                        background-color: $green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .forget-area{
+                        .text-link{
+                            display: block;
+                            text-align: center;
+                            font-family: 'Karla', sans-serif;
+                            font-size: 16px;
+                            color: $primarygreen;
+                        }
+                        .divider{
+                            position: relative;
+                            font-family: 'Karla', sans-serif;
+                            text-align: center;
+                            margin: 25px 0px;
+                            .hr{
+                                height: 1px;
+                                width: 100%;
+                                background-color: #e6e6e6;
+                                display: block;
+                                position: absolute;
+                                bottom: 9px;
+                                z-index: -1;
+                            }
+                            .or{
+                                display: inline-block;
+                                background-color: $white;
+                                padding: 0px 10px;
+                                color: $textblack;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

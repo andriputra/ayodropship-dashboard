@@ -218,4 +218,103 @@ p {
         font-size: 16px;
         color: #44b265; }
 
+#Login .login-box {
+  display: flex; }
+  #Login .login-box-half {
+    flex: 0 0 50%;
+    position: relative;
+    height: 100vh; }
+    #Login .login-box-half-centered {
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px; }
+    #Login .login-box-half.green-area {
+      background: #077d72;
+      background: linear-gradient(315deg, #077d72 0%, #3fae66 100%);
+      text-align: center; }
+      #Login .login-box-half.green-area .login-green-area {
+        background-image: url("../img/silhuetayo.png");
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 55%;
+        width: 100%;
+        position: absolute;
+        transform: translate(-42%, -50%);
+        top: 65%;
+        left: 50%; }
+      #Login .login-box-half.green-area .logo-ayo {
+        margin-bottom: 50px; }
+      #Login .login-box-half.green-area .login-text {
+        color: #ffffff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400 !important;
+        margin-bottom: 30px; }
+      #Login .login-box-half.green-area .login-desc {
+        margin-bottom: 0px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400 !important;
+        font-size: 12px;
+        color: #ffffff; }
+    #Login .login-box-half.form-area {
+      background-color: #ffffff; }
+      #Login .login-box-half.form-area .login-form-title {
+        font-family: 'Karla', sans-serif;
+        color: #404040;
+        margin-bottom: 30px; }
+      #Login .login-box-half.form-area .login-form form.login-form label {
+        font-family: 'Karla', sans-serif;
+        font-size: 14px;
+        color: #808080;
+        margin-bottom: 0px; }
+      #Login .login-box-half.form-area .login-form form.login-form .form-control {
+        border-width: 0px 0px 1px 0px;
+        border-color: #808080;
+        border-radius: 0px; }
+        #Login .login-box-half.form-area .login-form form.login-form .form-control:active, #Login .login-box-half.form-area .login-form form.login-form .form-control:focus {
+          outline: none;
+          box-shadow: none; }
+      #Login .login-box-half.form-area .login-form form.login-form .button {
+        margin-bottom: 20px; }
+        #Login .login-box-half.form-area .login-form form.login-form .button.btn-submit {
+          background-color: #44b265;
+          width: 100%;
+          box-shadow: none;
+          border: none;
+          border-radius: 5px;
+          height: 40px;
+          color: #ffffff;
+          font-family: 'Karla', sans-serif;
+          font-weight: 600;
+          width: 100%; }
+          #Login .login-box-half.form-area .login-form form.login-form .button.btn-submit:hover {
+            background-color: #00877a; }
+      #Login .login-box-half.form-area .login-form .forget-area .text-link {
+        display: block;
+        text-align: center;
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        color: #44b265; }
+      #Login .login-box-half.form-area .login-form .forget-area .divider {
+        position: relative;
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        margin: 25px 0px; }
+        #Login .login-box-half.form-area .login-form .forget-area .divider .hr {
+          height: 1px;
+          width: 100%;
+          background-color: #e6e6e6;
+          display: block;
+          position: absolute;
+          bottom: 9px;
+          z-index: -1; }
+        #Login .login-box-half.form-area .login-form .forget-area .divider .or {
+          display: inline-block;
+          background-color: #ffffff;
+          padding: 0px 10px;
+          color: #808080;
+          font-size: 14px; }
+
 /*# sourceMappingURL=style.css.map */
