@@ -14,6 +14,9 @@ h2 {
 p {
   color: #808080; }
 
+a {
+  font-family: 'Karla', sans-serif; }
+
 #dashboard {
   position: relative; }
   #dashboard .side-menu {

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AyoDropship | Profile</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="assets/img/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=1024">
+        <meta name="description" content="Dashboard Ayo Dropship"/>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/mobile/responsive-style.css" rel="stylesheet">
+        <!-- Bootsrap 4.4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+<body>
+    <div id="dashboard">
+        <div class="side-menu">
+            <div class="side-menu-list">
+                <div class="side-menu-list-sticky">
+                    IconL
+                </div>
+                <ul class="side-menu-list-menu-listings">
+                    <li class="menu-item active">
+                        Icon
+                        <p class="menu-item-name">DASHBOARD</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">PROFILE</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">AFILIASI</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">TRAINING</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">UPDATE</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">SHOP</p>
+                    </li>
+                    <li class="menu-item">
+                        Icon
+                        <p class="menu-item-name">LOGOUT</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top-bar">
+                <div class="top-bar-search">
+                    <input class="field-input" placeholder="Search..."/>
+                    <i class="icon-search">IconS</i>
+                </div>
+            </div>
+            <div id="Profile" class="content-area">
+                <div class="container">
+                    <h2 class="page-title profile">Profile</h2>
+                    <div class="profile-page">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="true">Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#rekening" role="tab" aria-controls="rekening" aria-selected="false">Rekening Bank</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="details" role="tabpanel" aria-labelledby="details-tab">
+                                <div class="profile-page-password profile-page-detail">
+                                    <h3 class="profile-page-password-now-title">Personal Information</h3>
+                                    <form class="profile-password-form-now">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="mb-3">
+                                                    <label for="name">Nama*</label>
+                                                    <input type="text" class="form-control" id="name" required/>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="mb-3">
+                                                    <label for="email">Email*</label>
+                                                    <input type="email" class="form-control" id="email" required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="address">Alamat</label>
+                                            <textarea class="form-control" id="address"></textarea>
+                                        </div>
+                                        <div class="button-area text-right">
+                                            <button type="submit" class="button btn-submit">SIMPAN</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="rekening" role="tabpanel" aria-labelledby="rekening-tab">
+                                <div class="profile-page-password profile-page-rekening">
+                                    <h3 class="profile-page-password-now-title">Akun Bank</h3>
+                                    <form class="profile-password-form-now">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="mb-3">
+                                                    <label for="bankName">Nama Bank</label>
+                                                    <input type="text" class="form-control" id="bankName" required/>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="mb-3">
+                                                    <label for="code">Kode Bank*</label>
+                                                    <input type="text" class="form-control" id="code" required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="accountNumber">Nomor Rekening</label>
+                                            <input type="text" class="form-control" id="accountNumber"/>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="info-bar-form text-center">
+                                                <p>Akun Bank terdaftar atas nama</p>
+                                                <p class="user-name">Aldira AyoDropship</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-area text-right">
+                                            <button type="submit" class="button btn-submit">SIMPAN</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+                                <div class="profile-page-password">
+                                    <h3 class="profile-page-password-now-title">Password Sekarang</h3>
+                                    <form class="profile-password-form-now">
+                                        <div class="mb-3">
+                                            <label for="password">Password</label>
+                                            <input type="password" class="form-control" id="password" required/>
+                                            <div class="invalid-feedback">
+                                                Please enter a valid password.
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <h3 class="profile-page-password-now-title">Password Baru</h3>
+                                    <form class="profile-password-form-new">
+                                        <div class="mb-3">
+                                            <label for="passwordNew">Password</label>
+                                            <input type="password" class="form-control" id="passwordNew" required/>
+                                            <div class="invalid-feedback">
+                                                Please enter a valid new password.
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="passwordRepeat">Ulangi Password</label>
+                                            <input type="password" class="form-control" id="passwordRepeat" required/>
+                                            <div class="invalid-feedback">
+                                                Please enter a valid new password.
+                                            </div>
+                                        </div>
+                                        <div class="button-area text-right">
+                                            <button type="submit" class="button btn-submit">SIMPAN</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p class="copyright">&copy; Copyrights 2019. Ayo Dropship</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

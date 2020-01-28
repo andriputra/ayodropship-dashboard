@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Karla:400,400i,700,700i&display=swap");
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Karla', sans-serif;
+  color: #404040; }
+
+h1 {
+  font-size: 36px !important;
+  font-weight: 600 !important; }
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 600 !important; }
+
+p {
+  color: #808080; }
+
+a {
+  font-family: 'Karla', sans-serif; }
+
+#Profile.content-area h2.page-title.profile {
+  margin-bottom: 30px; }
+#Profile.content-area .profile-page {
+  background-color: #ffffff; }
+  #Profile.content-area .profile-page ul.nav.nav-tabs {
+    text-align: center;
+    display: block; }
+    #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item {
+      display: inline-block;
+      margin-bottom: 0px;
+      width: 16%; }
+      #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item .nav-link {
+        color: #404040;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        border-width: 0px 0px 1px 0px;
+        padding: 15px; }
+        #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item .nav-link.active {
+          border-color: #00877a; }
+  #Profile.content-area .profile-page .tab-content {
+    padding: 30px 20px 40px 20px; }
+    #Profile.content-area .profile-page .tab-content .profile-page-password {
+      width: 47%;
+      margin: 0 auto; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password-now-title {
+        font-size: 18px;
+        margin-bottom: 25px; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now {
+        margin-bottom: 30px; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password label {
+        font-family: 'Karla', sans-serif;
+        font-size: 14px;
+        color: #808080;
+        margin-bottom: 0px; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password .form-control {
+        border-radius: 0px;
+        border-width: 0px 0px 1px 0px;
+        box-shadow: none;
+        padding: 5px 0px; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password .button-area .button.btn-submit {
+        background-color: #44b265;
+        border: none;
+        color: #ffffff;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        height: 40px;
+        padding: 0px 40px;
+        border-radius: 5px; }
+        #Profile.content-area .profile-page .tab-content .profile-page-password .button-area .button.btn-submit:hover {
+          background-color: #00877a; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form {
+        background-color: #f4f4f4;
+        border: 1px solid #dddddd;
+        padding: 16px;
+        border-radius: 5px; }
+        #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form p {
+          margin-bottom: 5px; }
+          #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form p.user-name {
+            margin-bottom: 0px;
+            font-weight: 600;
+            color: #404040; }
+
+/*# sourceMappingURL=profile.css.map */
