@@ -1,0 +1,72 @@
+@import '../color/color-style.scss';
+
+#Komisi{
+    .komisi-page{
+        padding: 60px;
+        background-color: $white;
+        .komisi-box{
+            display: flex;
+            margin-bottom: 30px;
+            &-half{
+                flex: 0 0 50%;
+                border: 1px solid #d6d6d6;
+                padding: 30px;
+                p{
+                    margin-bottom: 0px;
+                    color: $black;
+                    &.title{
+                        margin-bottom: 5px;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    &.price{
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+        .komisi-action{
+            .title{
+                p{
+                    margin-bottom: 20px;
+                    font-size: 26px;
+                    color: $black;
+                    font-weight: 600;
+                    line-height: 26px;
+                }
+            }
+            .button-action{
+                margin-bottom: 10px;
+                .button{
+                    padding: 5px 40px;
+                    background-color: $primarygreen;
+                    color: $white;
+                    font-weight: 600;
+                    border-radius: 5px;
+                    height: 50px;
+                    border: none;
+                    box-shadow: none;
+                    &:hover{
+                        background-color: $green;
+                    }
+                    i{
+                        margin-right: 15px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .notify{
+                display: flex;
+                i{
+                    margin-right: 15px;
+                }
+                p{
+                    margin-bottom: 0px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

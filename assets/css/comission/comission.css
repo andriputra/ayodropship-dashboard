@@ -1,3 +1,52 @@
-
+#Komisi .komisi-page {
+  padding: 60px;
+  background-color: #ffffff; }
+  #Komisi .komisi-page .komisi-box {
+    display: flex;
+    margin-bottom: 30px; }
+    #Komisi .komisi-page .komisi-box-half {
+      flex: 0 0 50%;
+      border: 1px solid #d6d6d6;
+      padding: 30px; }
+      #Komisi .komisi-page .komisi-box-half p {
+        margin-bottom: 0px;
+        color: #404040; }
+        #Komisi .komisi-page .komisi-box-half p.title {
+          margin-bottom: 5px;
+          font-size: 18px;
+          font-weight: 600; }
+        #Komisi .komisi-page .komisi-box-half p.price {
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 36px; }
+  #Komisi .komisi-page .komisi-action .title p {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #404040;
+    font-weight: 600;
+    line-height: 26px; }
+  #Komisi .komisi-page .komisi-action .button-action {
+    margin-bottom: 10px; }
+    #Komisi .komisi-page .komisi-action .button-action .button {
+      padding: 5px 40px;
+      background-color: #44b265;
+      color: #ffffff;
+      font-weight: 600;
+      border-radius: 5px;
+      height: 50px;
+      border: none;
+      box-shadow: none; }
+      #Komisi .komisi-page .komisi-action .button-action .button:hover {
+        background-color: #00877a; }
+      #Komisi .komisi-page .komisi-action .button-action .button i {
+        margin-right: 15px;
+        vertical-align: middle; }
+  #Komisi .komisi-page .komisi-action .notify {
+    display: flex; }
+    #Komisi .komisi-page .komisi-action .notify i {
+      margin-right: 15px; }
+    #Komisi .komisi-page .komisi-action .notify p {
+      margin-bottom: 0px;
+      font-style: italic; }
 
 /*# sourceMappingURL=comission.css.map */
