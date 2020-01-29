@@ -1,0 +1,51 @@
+#Update .update-page {
+  background-color: #ffffff; }
+  #Update .update-page-header {
+    padding: 15px 60px;
+    border-bottom: 1px solid #dfdfdf; }
+    #Update .update-page-header .header-title {
+      margin-bottom: 0px; }
+      #Update .update-page-header .header-title .member-type {
+        font-weight: 600; }
+  #Update .update-page-content {
+    padding: 60px; }
+    #Update .update-page-content-top {
+      padding-bottom: 60px;
+      border-bottom: 1px solid #dfdfdf;
+      margin-bottom: 60px; }
+      #Update .update-page-content-top .member-content .manage {
+        font-weight: 600; }
+      #Update .update-page-content-top .change-text {
+        text-decoration: none;
+        color: #44b265; }
+      #Update .update-page-content-top .button.btn-edit {
+        width: 90%;
+        color: #ffffff;
+        font-weight: 600;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #44b265;
+        display: inline-block;
+        text-align: center;
+        padding: 11px; }
+        #Update .update-page-content-top .button.btn-edit:hover {
+          background-color: #00877a; }
+    #Update .update-page-content-bottom .member-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-size: 16px; }
+    #Update .update-page-content-bottom .update-cta .button.btn-upgrade {
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 600;
+      color: #ffffff;
+      height: 45px;
+      border-radius: 5px;
+      padding: 10px;
+      width: 40%;
+      background-color: #44b265; }
+      #Update .update-page-content-bottom .update-cta .button.btn-upgrade:hover {
+        background-color: #00877a; }
+
+/*# sourceMappingURL=update.css.map */

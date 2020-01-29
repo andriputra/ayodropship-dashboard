@@ -1,0 +1,79 @@
+@import '../color/color-style.scss';
+
+#Update{
+    .page-title{
+        &.update{}
+    }
+    .update-page{
+        background-color: $white;
+        &-header{
+            padding: 15px 60px;
+            border-bottom: 1px solid $softgray;
+            .header-title{
+                margin-bottom: 0px;
+                .member-type{
+                    font-weight: 600;
+                }
+            }
+        }
+        &-content{
+            padding: 60px;
+            &-top{
+                padding-bottom: 60px;
+                border-bottom: 1px solid $softgray;
+                margin-bottom: 60px;
+                .member-content{
+                    .manage{
+                        font-weight: 600;
+                    }
+                }
+                .change-text{
+                    text-decoration: none;
+                    color: $primarygreen;
+                }
+                .button{
+                    &.btn-edit{
+                        width: 90%;
+                        color: $white;
+                        font-weight: 600;
+                        height: 45px;
+                        border-radius: 5px;
+                        background-color: $primarygreen;
+                        display: inline-block;
+                        text-align: center;
+                        padding: 11px;
+                        &:hover{
+                            background-color: $green;
+                        }
+                    }
+                }
+            }
+            &-bottom{
+                .member-title{
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+                .update-cta{
+                    .button{
+                        &.btn-upgrade{
+                            display: inline-block;
+                            text-decoration: none;
+                            text-align: center;
+                            font-weight: 600;
+                            color: $white;
+                            height: 45px;
+                            border-radius: 5px;
+                            padding: 10px;
+                            width: 40%;
+                            background-color: $primarygreen;
+                            &:hover{
+                                background-color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
