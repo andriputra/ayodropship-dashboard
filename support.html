@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>AyoDropship | Update</title>
+        <title>AyoDropship | Support</title>
         <meta charset="utf-8" />
         <link rel="icon" href="assets/img/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -78,36 +78,42 @@
                     <i class="icon-search">IconS</i>
                 </div>
             </div>
-            <div id="Update" class="content-area">
+            <div id="Support" class="content-area">
                 <div class="container">
-                    <h2 class="page-title update">Update</h2>
-                    <div class="update-page">
-                        <div class="update-page-header">
-                            <p class="header-title">Member Type: <span class="member-type">BASIC</span></p>
+                    <h2 class="page-title support">Support</h2>
+                    <div class="support-page">
+                        <div class="support-page-header">
+                            <p class="header-title">Create New Ticket</p>
                         </div>
-                        <div class="update-page-content">
-                            <div class="update-page-content-top">
-                                <div class="row align-items-center">
-                                    <div class="col-8">
-                                        <p class="member-content">
-                                            <span class="manage">Manage Membership</span><br>
-                                            <span class="since">Member Since: <strong>22 Oct 2019</strong></span>
-                                        </p>
-                                        <a class="change-text" href="#">Change Member Type</a>
+                        <div class="support-page-content">
+                            <p class="header-form">Support Information</p>
+                            <form class="support-form">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="divisi">Divisi*</label>
+                                        <select class="custom-select d-block w-100 form-control" id="country" required="">
+                                            <option value="">Accounting</option>
+                                            <option>IT Support</option>
+                                            <option>Marketing</option>
+                                        </select>
                                     </div>
-                                    <div class="col-4">
-                                        <a class="button btn-edit">EDIT PAYMENT METHOD</a>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="subject">Subject</label>
+                                        <input type="text" class="form-control" id="subject"/>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="update-page-content-bottom text-center">
-                                <p class="member-title">Manage Membership</p>
-                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                                <div class="update-cta">
-                                    <p>Discontinued <strong>Pro Training</strong></p>
-                                    <a class="button btn-upgrade" href="support.html"><i class="icon">icon</i> UPGRADE TO PRO MEMBERSHIP</a>
+                                <div class="mb-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email"/>
                                 </div>
-                            </div>
+                                <div class="mb-3">
+                                    <label for="desc">Deskripsi</label>
+                                    <textarea class="form-control" id="desc"></textarea>
+                                </div>
+                                <div class="button-cta text-right">
+                                    <button type="submit" class="button btn-submit">Kirim</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

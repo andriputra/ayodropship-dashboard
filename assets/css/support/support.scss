@@ -1,0 +1,56 @@
+@import '../color/color-style.scss';
+
+#Support{
+    .support-page{
+        background-color: $white;
+        &-header{
+            padding: 15px 0px;
+            border-bottom: 1px solid $softgray;
+            .header-title{
+                font-weight: 600;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        &-content{
+            width: 50%;
+            margin: 0 auto;
+            padding: 40px 0px;
+            .support-form{
+                label{
+                    font-size: 12px;
+                    font-family: 'Karla', sans-serif;
+                    color: $textblack;
+                }
+                .form-control{
+                    border-radius: 0px;
+                    border-width: 0px 0px 1px 0px;
+                    border-color: $softgray;
+                    font-size: 14px;
+                    color: $black;
+                    box-shadow: none;
+                    padding: 5px 0px;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .button-cta{
+                    .button{
+                        width: 20%;
+                        background-color: $primarygreen;
+                        color: $white;
+                        border: none;
+                        height: 40px;
+                        border-radius: 5px;
+                        font-weight: 600;
+                        font-family: 'Karla', sans-serif;
+                        font-size: 16px;
+                        &:hover{
+                            background-color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
