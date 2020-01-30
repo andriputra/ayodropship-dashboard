@@ -1,0 +1,155 @@
+@import '../color/color-style.scss';
+
+#Shop{
+    .shop-page{
+        background-color: $white;
+        &-header{
+            border-bottom: 1px solid $softgray;
+            padding: 15px 50px;
+            .category{
+                display: flex;
+                align-items: center;
+                .title{
+                    flex: 0 0 30%;
+                    margin-bottom: 0px;
+                    font-weight: 600;
+                    color: $black;
+                }
+                .form-control{
+                    width: 40%;
+                    border-radius: 0px;
+                    border: 1px solid $softgray;
+                    font-size: 14px;
+                    font-family: 'Karla', sans-serif;
+                }
+            }
+            .cart-box{
+                text-align: right;
+                display: flex;
+                justify-content: flex-end;
+                .amount{
+                    font-family: 'Karla', sans-serif;
+                    font-size: 16px;
+                    color: $black;
+                    font-weight: 600;
+                    margin-right: 20px;
+                }
+                .cart{
+                    display: flex;
+                    position: relative;
+                    i{
+                        &.icon-cart{
+                            background-image: url('../img/cart.png');
+                            background-repeat: no-repeat;
+                            width: 35px;
+                            height: 24px;
+                            background-size: contain;
+                            display: block;
+                        }
+                    }
+                    .counter{
+                        color: $white;
+                        font-size: 9px;
+                        display: inline-block;
+                        border-radius: 50%;
+                        line-height: 14px;
+                        text-align: center;
+                        background-color: $red;
+                        height: 14px;
+                        width: 14px;
+                        position: absolute;
+                        right: 0px;
+                        top: -5px;
+                    }
+                }
+            }
+        }
+        &-content{
+            &-box{
+                display: flex;
+                align-items: center;
+                .product{
+                    flex: 0 0 25%;
+                    border-bottom: 1px solid $softgray;
+                    border-right: 1px solid $softgray;
+                    position: relative;
+                    &:last-child{
+                        border-right: none;
+                    }
+                    .img-product{
+                        margin-bottom: 10px;
+                    }
+                    .desc-product{
+                        padding: 0px 45px;
+                        margin-bottom: 15px;
+                        p{
+                            margin-bottom: 0px;
+                            &.title-product{
+                                margin-bottom: 10px;
+                                font-weight: 600;
+                                color: $black;
+                            }
+                            &.pricing{
+                                color: $primarygreen;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        &::after{
+                            content: 'Buy Product';
+                            position: absolute;
+                            background-color: $primarygreen;
+                            top: 50%;
+                            left: 20%;
+                            color: $white;
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            font-family: 'Karla', sans-serif;
+                            display: block;
+                            width: 60%;
+                            border-radius: 5px;
+                            padding: 10px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+        &-footer{
+            padding: 30px 50px;
+            .pagination{
+                text-align: right;
+                ul{
+                    &.pagination-list{
+                        display: block;
+                        text-align: right;
+                        margin-bottom: 0px;
+                        list-style: none;
+                        padding-left: 0px;
+                        width: 100%;
+                    }
+                    li{
+                        display: inline-block;
+                        a{
+                            display: inline-block;
+                            padding: 0px 10px;
+                            color: $black;
+                            text-decoration: none;
+                            font-family: 'Karla', sans-serif;
+                            font-size: 15px;
+                            font-weight: 600;
+                            &.active{
+                                color: $primarygreen;
+                            }
+                            &:hover{
+                                color: $primarygreen
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
