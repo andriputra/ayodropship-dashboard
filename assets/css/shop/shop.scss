@@ -95,23 +95,31 @@
                             }
                         }
                     }
+                    .button-buy{
+                        display: none;
+                    }
                     &:hover{
-                        cursor: pointer;
-                        &::after{
-                            content: 'Buy Product';
-                            position: absolute;
-                            background-color: $primarygreen;
-                            top: 50%;
-                            left: 20%;
-                            color: $white;
-                            text-transform: uppercase;
-                            font-size: 14px;
-                            font-family: 'Karla', sans-serif;
+                        .button-buy{
                             display: block;
-                            width: 60%;
-                            border-radius: 5px;
-                            padding: 10px;
-                            font-weight: 600;
+                            a{
+                                position: absolute;
+                                background-color: $primarygreen;
+                                top: 50%;
+                                left: 20%;
+                                color: $white;
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                font-family: 'Karla', sans-serif;
+                                display: block;
+                                width: 60%;
+                                border-radius: 5px;
+                                padding: 10px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                &:hover{
+                                    background-color: $green;
+                                }
+                            }
                         }
                     }
                 }

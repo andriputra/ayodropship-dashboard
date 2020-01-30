@@ -1,0 +1,120 @@
+@import '../color/color-style.scss';
+
+#DetailProduct{
+    .detail-page{
+        background-color: $white;
+        &-header{
+            border-bottom: 1px solid $softgray;
+            padding: 15px 50px;
+            .category{
+                display: flex;
+                align-items: center;
+                .title{
+                    flex: 0 0 30%;
+                    margin-bottom: 0px;
+                    font-weight: 600;
+                    color: $black;
+                }
+                .form-control{
+                    width: 40%;
+                    border-radius: 0px;
+                    border: 1px solid $softgray;
+                    font-size: 14px;
+                    font-family: 'Karla', sans-serif;
+                }
+            }
+            .cart-box{
+                text-align: right;
+                display: flex;
+                justify-content: flex-end;
+                .amount{
+                    font-family: 'Karla', sans-serif;
+                    font-size: 16px;
+                    color: $black;
+                    font-weight: 600;
+                    margin-right: 20px;
+                }
+                .cart{
+                    display: flex;
+                    position: relative;
+                    i{
+                        &.icon-cart{
+                            background-image: url('../img/cart.png');
+                            background-repeat: no-repeat;
+                            width: 35px;
+                            height: 24px;
+                            background-size: contain;
+                            display: block;
+                        }
+                    }
+                    .counter{
+                        color: $white;
+                        font-size: 9px;
+                        display: inline-block;
+                        border-radius: 50%;
+                        line-height: 14px;
+                        text-align: center;
+                        background-color: $red;
+                        height: 14px;
+                        width: 14px;
+                        position: absolute;
+                        right: 0px;
+                        top: -5px;
+                    }
+                }
+            }
+        }
+        &-content{
+            padding: 20px 50px 50px;
+            .product-area{
+                text-align: center;
+                .image-product{
+                    text-align: center;
+                }
+                .button-buy{
+                    a{
+                        &.btn-buy{
+                            display: inline-block;
+                            color: $white;
+                            background-color: $primarygreen;
+                            border-radius: 5px;
+                            padding: 10px 20px;
+                            font-weight: 600;
+                            font-family: 'Karla',sans-serif;
+                            margin: 10px 0px 0px;
+                            &:hover{
+                                background-color: $green;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .description-product{
+                .table-repsonsive{
+                    table{
+                        tbody{
+                            tr{
+                                td{
+                                    border-top: 0px;
+                                    border-bottom: 1px solid $softgray;
+                                    font-family: 'Karla', sans-serif;
+                                    font-size: 16px;
+                                    padding: 15px 0px;
+                                    &.title{
+                                        font-weight: 600;
+                                        color: $black;
+                                        width: 25%;
+                                    }
+                                    &.info{
+                                        color: $textblack;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

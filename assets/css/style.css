@@ -856,10 +856,11 @@ a {
           #Shop .shop-page-content-box .product .desc-product p.pricing {
             color: #44b265;
             font-weight: 600; }
-      #Shop .shop-page-content-box .product:hover {
-        cursor: pointer; }
-        #Shop .shop-page-content-box .product:hover::after {
-          content: 'Buy Product';
+      #Shop .shop-page-content-box .product .button-buy {
+        display: none; }
+      #Shop .shop-page-content-box .product:hover .button-buy {
+        display: block; }
+        #Shop .shop-page-content-box .product:hover .button-buy a {
           position: absolute;
           background-color: #44b265;
           top: 50%;
@@ -872,7 +873,10 @@ a {
           width: 60%;
           border-radius: 5px;
           padding: 10px;
-          font-weight: 600; }
+          font-weight: 600;
+          text-decoration: none; }
+          #Shop .shop-page-content-box .product:hover .button-buy a:hover {
+            background-color: #00877a; }
   #Shop .shop-page-footer {
     padding: 30px 50px; }
     #Shop .shop-page-footer .pagination {
@@ -898,5 +902,88 @@ a {
             color: #44b265; }
           #Shop .shop-page-footer .pagination ul li a:hover {
             color: #44b265; }
+
+#DetailProduct .detail-page {
+  background-color: #ffffff; }
+  #DetailProduct .detail-page-header {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 15px 50px; }
+    #DetailProduct .detail-page-header .category {
+      display: flex;
+      align-items: center; }
+      #DetailProduct .detail-page-header .category .title {
+        flex: 0 0 30%;
+        margin-bottom: 0px;
+        font-weight: 600;
+        color: #404040; }
+      #DetailProduct .detail-page-header .category .form-control {
+        width: 40%;
+        border-radius: 0px;
+        border: 1px solid #dfdfdf;
+        font-size: 14px;
+        font-family: 'Karla', sans-serif; }
+    #DetailProduct .detail-page-header .cart-box {
+      text-align: right;
+      display: flex;
+      justify-content: flex-end; }
+      #DetailProduct .detail-page-header .cart-box .amount {
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        color: #404040;
+        font-weight: 600;
+        margin-right: 20px; }
+      #DetailProduct .detail-page-header .cart-box .cart {
+        display: flex;
+        position: relative; }
+        #DetailProduct .detail-page-header .cart-box .cart i.icon-cart {
+          background-image: url("../img/cart.png");
+          background-repeat: no-repeat;
+          width: 35px;
+          height: 24px;
+          background-size: contain;
+          display: block; }
+        #DetailProduct .detail-page-header .cart-box .cart .counter {
+          color: #ffffff;
+          font-size: 9px;
+          display: inline-block;
+          border-radius: 50%;
+          line-height: 14px;
+          text-align: center;
+          background-color: #ef2753;
+          height: 14px;
+          width: 14px;
+          position: absolute;
+          right: 0px;
+          top: -5px; }
+  #DetailProduct .detail-page-content {
+    padding: 20px 50px 50px; }
+    #DetailProduct .detail-page-content .product-area {
+      text-align: center; }
+      #DetailProduct .detail-page-content .product-area .image-product {
+        text-align: center; }
+      #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy {
+        display: inline-block;
+        color: #ffffff;
+        background-color: #44b265;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-family: 'Karla',sans-serif;
+        margin: 10px 0px 0px; }
+        #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy:hover {
+          background-color: #00877a;
+          text-decoration: none; }
+    #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td {
+      border-top: 0px;
+      border-bottom: 1px solid #dfdfdf;
+      font-family: 'Karla', sans-serif;
+      font-size: 16px;
+      padding: 15px 0px; }
+      #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td.title {
+        font-weight: 600;
+        color: #404040;
+        width: 25%; }
+      #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td.info {
+        color: #808080; }
 
 /*# sourceMappingURL=style.css.map */
