@@ -1,0 +1,171 @@
+@import '../color/color-style.scss';
+
+#Payment{
+    .payment-page{
+        background-color: $white;
+        margin-bottom: 20px;
+        &-header{
+            border-bottom: 1px solid $softgray;
+            padding: 15px 50px;
+            p{
+                &.title{
+                    margin-bottom: 0px;
+                    color: $black;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+        }
+        &-content{
+            padding: 20px 50px 50px;
+            &.table{
+                padding: 40px 0px 0px;
+                table{
+                    margin-bottom: 0px;
+                    thead{
+                        tr{
+                            th{
+                                border-top: 0px;
+                                border-bottom: 1px solid $softgray;
+                                &:first-child{
+                                    padding: 15px 15px 15px 50px;
+                                }
+                                &:last-child{
+                                    padding: 15px 50px 15px 15px;
+                                }
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                border-top: 0px;
+                                border-bottom: 1px solid $softgray; 
+                                padding: 20px; 
+                                vertical-align: middle;
+                                font-family: 'Karla', sans-serif;
+                                &:first-child{
+                                    padding: 20px 20px 20px 50px;
+                                }
+                                &:last-child{
+                                    padding: 20px 50px 20px 20px;
+                                }
+                                .product-item{
+                                    display: inline-block;
+                                    width: 70px;
+                                    border: 1px solid $softgray;
+                                }
+                                .form-control{
+                                    width: 70%;
+                                    border-radius: 0px;
+                                }
+                                .button-action{
+                                    a{
+                                        &.btn-act{
+                                            color: $white;
+                                            background-color: $primarygreen;
+                                            padding: 10px 20px;
+                                            border-radius: 5px;
+                                            display: block;
+                                            text-align: center;
+                                            &:hover{
+                                                background-color: $green;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    tfoot{
+                        tr{
+                            td{
+                                font-weight: 600;
+                                font-family: 'Karla', sans-serif;
+                                vertical-align: middle;
+                                padding: 20px;
+                                &:first-child{
+                                    padding: 20px 20px 20px 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .form-dropship{
+                font-family: 'Karla', sans-serif;
+                .form-entry-data{
+                    label{
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        &.custom-control-label{
+                            font-size: 16px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .form-control{
+                        border-radius: 0px;
+                        border-width: 0px 0px 1px 0px;
+                        border-color: $softgray;
+                        padding: 0px;
+                        height: 30px;
+                        box-shadow: none;
+                    }
+                    select{
+                        &.form-control{
+                            border-bottom-left-radius: 0px;
+                            border-bottom-right-radius: 0px;
+                        }
+                    }
+                }
+            }
+            .form-dropship{
+                font-family: 'Karla', sans-serif;
+                label{
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+                .form-control{
+                    border-width: 0px 0px 1px 0px;
+                    box-shadow: none;
+                    padding: 0px;
+                    border-radius: 0px;
+                    height: 30px;
+                }
+            }
+            &.summary{
+                padding: 40px 0px;
+                .summary-table{
+                    table{
+                        tr{
+                            td{
+                                border-top: 0px;
+                                border-bottom: 1px solid $softgray;
+                                padding: 15px 50px;
+                                font-family: 'Karla', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .button-confirm{
+                    a{
+                        &.btn-confirm{
+                            margin-top: 30px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-weight: 600;
+                            color: $white;
+                            padding: 12px 40px;
+                            background-color: $primarygreen;
+                            border-radius: 5px;
+                            &:hover{
+                                background-color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
