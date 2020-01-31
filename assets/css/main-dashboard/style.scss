@@ -3,16 +3,113 @@
 
 #dashboard{
     position: relative;
+    i{
+        &.icon{
+            display: inline-block;
+            width: 36px;
+            height: 37px; 
+            background-color: $white;
+            -webkit-mask-size: cover;
+            mask-size: cover;
+            &.ic-sticky-logo{
+                background-image: url('../img/stickyLogo.png');
+                background-repeat: no-repeat;
+                width: 43px;
+                height: 36px;
+                background-color: transparent;
+            }
+            &.ic-search{
+                -webkit-mask: url('../img/Icon_Search.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Search.svg') no-repeat 50% 50%;
+                background-color: $primarygreen;
+            }
+            &.ic-dashboard{
+                -webkit-mask: url('../img/Icon_Dashboard.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Dashboard.svg') no-repeat 50% 50%;
+            }
+            &.ic-profile{
+                -webkit-mask: url('../img/Icon_Profile.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Profile.svg') no-repeat 50% 50%;
+            }
+            &.ic-afiliasi{
+                -webkit-mask: url('../img/Icon_Afiliate.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Afiliate.svg') no-repeat 50% 50%;
+            }
+            &.ic-komisi{
+                -webkit-mask: url('../img/Icon_Komisi.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Komisi.svg') no-repeat 50% 50%;
+            }
+            &.ic-training{
+                -webkit-mask: url('../img/Icon_Training.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Training.svg') no-repeat 50% 50%;
+            }
+            &.ic-update{
+                -webkit-mask: url('../img/Icon_Update.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Update.svg') no-repeat 50% 50%;
+            }
+            &.ic-shop{
+                -webkit-mask: url('../img/Icon_Shop.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Shop.svg') no-repeat 50% 50%;
+            }
+            &.ic-logout{
+                -webkit-mask: url('../img/Icon_Logout.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Logout.svg') no-repeat 50% 50%;
+            }
+            &.icon-large-training{
+                -webkit-mask: url('../img/Icon_Large_Training.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Large_Training.svg') no-repeat 50% 50%;
+                width: 150px;
+                height: 150px;
+                background-color: $primarygreen;
+            }
+            &.icon-large-affiliate{
+                -webkit-mask: url('../img/Icon_Large_Affiliasi.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Large_Affiliasi.svg') no-repeat 50% 50%;
+                width: 150px;
+                height: 150px;
+                background-color: $primarygreen;
+            }
+            &.icon-large-komisi{
+                -webkit-mask: url('../img/Icon_Large_Komisi.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Large_Komisi.svg') no-repeat 50% 50%;
+                width: 150px;
+                height: 150px;
+                background-color: $primarygreen;
+            }
+            &.icon-blueprint{
+                -webkit-mask: url('../img/Icon_Bluprint.svg') no-repeat 50% 50%;
+                mask: url('../img/Icon_Bluprint.svg') no-repeat 50% 50%;
+                width: 65px;
+                height: 82px;
+            }
+            &.ic-withdrawal{
+                background-image: url('../img/icon_withdrawal.png');
+                background-repeat: no-repeat;
+                width: 48px;
+                height: 37px;
+                background-color: transparent;
+            }
+            &.ic-upgrade{
+                background-image: url('../img/icon_upgrade.png');
+                background-repeat: no-repeat;
+                width: 48px;
+                height: 45px;
+                background-color: transparent;
+            }
+        }
+    }
     .side-menu{
         position: fixed;
         left: 0px;
         height: 100vh;
-        width: 145px;
+        width: 120px;
         background-color: $green;
         &-list{
             &-sticky{
-                min-height: 70px;
+                min-height: 75px;
                 text-align: center;
+                background-color: #00776c;
+                padding: 16px;
             }
             &-menu{
                 &-listings{
@@ -30,7 +127,7 @@
                             background-color: #16ad9e;
                             position: absolute;
                             bottom: 0px;
-                            left: 28%;
+                            left: 25%;
                         }
                         &:last-child{
                             &::after{
@@ -39,6 +136,7 @@
                         }
                         a{
                             display: block;
+                            padding: 12px;
                             &.active{
                                 min-height: 80px;
                                 background-color: #13ad9e;
@@ -69,16 +167,21 @@
     .content{
         background-color: $grayfloor;
         height: 100%;
-        margin-left: 145px;
+        margin-left: 120px;
         .top-bar{
             background-color: $white;
             position: fixed;
             top: 0px;
-            width: 90%;
+            width: 92%;
             z-index: 1;
             &-search{
                 text-align: right;
                 padding: 10px 30px;
+                a{
+                    display: inline-block;
+                    position: relative;
+                    top: 10px;
+                }
                 .field-input{
                     border-top: none;
                     border-right: none;
@@ -102,7 +205,7 @@
             padding: 20px 30px;
             position: fixed;
             bottom: 0px;
-            width: 90%;
+            width: 92%;
             .copyright{
                 margin-bottom: 0px;
                 font-size: 16px;
@@ -121,12 +224,13 @@
                 .button{
                     height: 50px;
                     border: none;
-                    padding: 10px 20px;
+                    padding: 15px 20px;
                     border-radius: 5px;
                     color: #ffffff;
                     font-size: 16px;
                     font-family: 'Karla', sans-serif;
                     font-weight: 600;
+                    text-decoration: none;
                     &.btn-general{
                         background-color: $primarygreen;
                     }
@@ -158,15 +262,21 @@
             }
             .dashboard-cta{
                 &-commission{
-                    padding: 20px;
+                    padding: 24px;
                     background-color: $green;
+                    min-height: 192px;
                     .cta-desc{
                         color: #96cec9;
                     }
                 }
                 &-upgrade{
-                    padding: 20px;
+                    background-position: -37px 6px;
+                    padding: 45px;
                     background-color: $primarygreen;
+                    background-image: url('../img/Icon_Upgrade.svg');
+                    background-repeat: no-repeat;
+                    background-size: inherit;
+                    min-height: 192px;
                     .cta-desc{
                         color: $white;
                     }
@@ -174,7 +284,7 @@
                 .cta-title{
                     color: $white;
                     font-family: 'Karla', sans-serif;
-                    font-size: 30px;
+                    font-size: 25px !important;
                 }
                 .button{
                     &.btn-small{

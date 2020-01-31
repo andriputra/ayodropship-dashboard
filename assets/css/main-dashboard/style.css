@@ -19,15 +19,93 @@ a {
 
 #dashboard {
   position: relative; }
+  #dashboard i.icon {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background-color: #ffffff;
+    -webkit-mask-size: cover;
+    mask-size: cover; }
+    #dashboard i.icon.ic-sticky-logo {
+      background-image: url("../img/stickyLogo.png");
+      background-repeat: no-repeat;
+      width: 43px;
+      height: 36px;
+      background-color: transparent; }
+    #dashboard i.icon.ic-search {
+      -webkit-mask: url("../img/Icon_Search.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Search.svg") no-repeat 50% 50%;
+      background-color: #44b265; }
+    #dashboard i.icon.ic-dashboard {
+      -webkit-mask: url("../img/Icon_Dashboard.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Dashboard.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-profile {
+      -webkit-mask: url("../img/Icon_Profile.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Profile.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-afiliasi {
+      -webkit-mask: url("../img/Icon_Afiliate.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Afiliate.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-komisi {
+      -webkit-mask: url("../img/Icon_Komisi.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Komisi.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-training {
+      -webkit-mask: url("../img/Icon_Training.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Training.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-update {
+      -webkit-mask: url("../img/Icon_Update.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Update.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-shop {
+      -webkit-mask: url("../img/Icon_Shop.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Shop.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-logout {
+      -webkit-mask: url("../img/Icon_Logout.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Logout.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.icon-large-training {
+      -webkit-mask: url("../img/Icon_Large_Training.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Large_Training.svg") no-repeat 50% 50%;
+      width: 150px;
+      height: 150px;
+      background-color: #44b265; }
+    #dashboard i.icon.icon-large-affiliate {
+      -webkit-mask: url("../img/Icon_Large_Affiliasi.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Large_Affiliasi.svg") no-repeat 50% 50%;
+      width: 150px;
+      height: 150px;
+      background-color: #44b265; }
+    #dashboard i.icon.icon-large-komisi {
+      -webkit-mask: url("../img/Icon_Large_Komisi.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Large_Komisi.svg") no-repeat 50% 50%;
+      width: 150px;
+      height: 150px;
+      background-color: #44b265; }
+    #dashboard i.icon.icon-blueprint {
+      -webkit-mask: url("../img/Icon_Bluprint.svg") no-repeat 50% 50%;
+      mask: url("../img/Icon_Bluprint.svg") no-repeat 50% 50%;
+      width: 65px;
+      height: 82px; }
+    #dashboard i.icon.ic-withdrawal {
+      background-image: url("../img/icon_withdrawal.png");
+      background-repeat: no-repeat;
+      width: 48px;
+      height: 37px;
+      background-color: transparent; }
+    #dashboard i.icon.ic-upgrade {
+      background-image: url("../img/icon_upgrade.png");
+      background-repeat: no-repeat;
+      width: 48px;
+      height: 45px;
+      background-color: transparent; }
   #dashboard .side-menu {
     position: fixed;
     left: 0px;
     height: 100vh;
-    width: 145px;
+    width: 120px;
     background-color: #00877a; }
     #dashboard .side-menu-list-sticky {
-      min-height: 70px;
-      text-align: center; }
+      min-height: 75px;
+      text-align: center;
+      background-color: #00776c;
+      padding: 16px; }
     #dashboard .side-menu-list-menu-listings {
       padding-left: 0px;
       margin-bottom: 0px;
@@ -43,11 +121,12 @@ a {
           background-color: #16ad9e;
           position: absolute;
           bottom: 0px;
-          left: 28%; }
+          left: 25%; }
         #dashboard .side-menu-list-menu-listings .menu-item:last-child::after {
           content: none; }
         #dashboard .side-menu-list-menu-listings .menu-item a {
-          display: block; }
+          display: block;
+          padding: 12px; }
           #dashboard .side-menu-list-menu-listings .menu-item a.active {
             min-height: 80px;
             background-color: #13ad9e; }
@@ -65,16 +144,20 @@ a {
   #dashboard .content {
     background-color: #f4f4f4;
     height: 100%;
-    margin-left: 145px; }
+    margin-left: 120px; }
     #dashboard .content .top-bar {
       background-color: #ffffff;
       position: fixed;
       top: 0px;
-      width: 90%;
+      width: 92%;
       z-index: 1; }
       #dashboard .content .top-bar-search {
         text-align: right;
         padding: 10px 30px; }
+        #dashboard .content .top-bar-search a {
+          display: inline-block;
+          position: relative;
+          top: 10px; }
         #dashboard .content .top-bar-search .field-input {
           border-top: none;
           border-right: none;
@@ -94,7 +177,7 @@ a {
       padding: 20px 30px;
       position: fixed;
       bottom: 0px;
-      width: 90%; }
+      width: 92%; }
       #dashboard .content .bottom-bar .copyright {
         margin-bottom: 0px;
         font-size: 16px; }
@@ -110,12 +193,13 @@ a {
         #dashboard .content .content-area .profile-box .button {
           height: 50px;
           border: none;
-          padding: 10px 20px;
+          padding: 15px 20px;
           border-radius: 5px;
           color: #ffffff;
           font-size: 16px;
           font-family: 'Karla', sans-serif;
-          font-weight: 600; }
+          font-weight: 600;
+          text-decoration: none; }
           #dashboard .content .content-area .profile-box .button.btn-general {
             background-color: #44b265; }
           #dashboard .content .content-area .profile-box .button:hover {
@@ -138,19 +222,25 @@ a {
           background-color: #ffffff;
           padding: 45px; }
       #dashboard .content .content-area .dashboard-cta-commission {
-        padding: 20px;
-        background-color: #00877a; }
+        padding: 24px;
+        background-color: #00877a;
+        min-height: 192px; }
         #dashboard .content .content-area .dashboard-cta-commission .cta-desc {
           color: #96cec9; }
       #dashboard .content .content-area .dashboard-cta-upgrade {
-        padding: 20px;
-        background-color: #44b265; }
+        background-position: -37px 6px;
+        padding: 45px;
+        background-color: #44b265;
+        background-image: url("../img/Icon_Upgrade.svg");
+        background-repeat: no-repeat;
+        background-size: inherit;
+        min-height: 192px; }
         #dashboard .content .content-area .dashboard-cta-upgrade .cta-desc {
           color: #ffffff; }
       #dashboard .content .content-area .dashboard-cta .cta-title {
         color: #ffffff;
         font-family: 'Karla', sans-serif;
-        font-size: 30px; }
+        font-size: 25px !important; }
       #dashboard .content .content-area .dashboard-cta .button.btn-small {
         height: 42px;
         border: none;

@@ -40,14 +40,14 @@
             .button-action{
                 margin-bottom: 10px;
                 .button{
-                    padding: 5px 40px;
+                    padding: 10px 40px;
                     background-color: $primarygreen;
                     color: $white;
                     font-weight: 600;
                     border-radius: 5px;
-                    height: 50px;
                     border: none;
                     box-shadow: none;
+                    font-size: 20px;
                     &:hover{
                         background-color: $green;
                     }

@@ -28,14 +28,14 @@
   #Komisi .komisi-page .komisi-action .button-action {
     margin-bottom: 10px; }
     #Komisi .komisi-page .komisi-action .button-action .button {
-      padding: 5px 40px;
+      padding: 10px 40px;
       background-color: #44b265;
       color: #ffffff;
       font-weight: 600;
       border-radius: 5px;
-      height: 50px;
       border: none;
-      box-shadow: none; }
+      box-shadow: none;
+      font-size: 20px; }
       #Komisi .komisi-page .komisi-action .button-action .button:hover {
         background-color: #00877a; }
       #Komisi .komisi-page .komisi-action .button-action .button i {
