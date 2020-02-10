@@ -1,0 +1,71 @@
+@import '../color/color-style.scss';
+
+#OrderSuccess{
+    .order-success-page{
+        background-color: $white;
+        margin-bottom: 20px;
+        &-header{
+            border-bottom: 1px solid $softgray;
+            padding: 30px 50px;
+            p{
+                &.title{
+                    margin-bottom: 0px;
+                    color: $black;
+                    font-size: 23px;
+                    font-weight: 600;
+                }
+                &.subtitle{
+                    margin-bottom: 0px;
+                    color: $black;
+                    font-size: 18px;
+                }
+                &.payment-price{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: $primarygreen;
+                    font-family: 'Karla', sans-serif;
+                    line-height: 40px;
+                    margin-bottom: 0px;
+                }
+            }
+            .countdown{
+                font-size: 30px;
+                font-weight: 600;
+                color: $primarygreen;
+                font-family: 'Karla', sans-serif;
+            }
+            .bank-info{
+                .bank-logo{
+                    margin-bottom: 20px;
+                    img{
+                        height: 40px;
+                    }
+                }
+                p{
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    color: $black;
+                    &.rek{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .button-confirm{
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    font-family: 'Karla', sans-serif;
+                    font-size: 16px;
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    background-color: $primarygreen;
+                    &:hover{
+                        background-color: $green;
+                    }
+                }
+            }
+        }
+    }
+}

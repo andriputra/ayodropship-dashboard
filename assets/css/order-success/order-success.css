@@ -1,0 +1,51 @@
+#OrderSuccess .order-success-page {
+  background-color: #ffffff;
+  margin-bottom: 20px; }
+  #OrderSuccess .order-success-page-header {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px 50px; }
+    #OrderSuccess .order-success-page-header p.title {
+      margin-bottom: 0px;
+      color: #404040;
+      font-size: 23px;
+      font-weight: 600; }
+    #OrderSuccess .order-success-page-header p.subtitle {
+      margin-bottom: 0px;
+      color: #404040;
+      font-size: 18px; }
+    #OrderSuccess .order-success-page-header p.payment-price {
+      font-size: 30px;
+      font-weight: 600;
+      color: #44b265;
+      font-family: 'Karla', sans-serif;
+      line-height: 40px;
+      margin-bottom: 0px; }
+    #OrderSuccess .order-success-page-header .countdown {
+      font-size: 30px;
+      font-weight: 600;
+      color: #44b265;
+      font-family: 'Karla', sans-serif; }
+    #OrderSuccess .order-success-page-header .bank-info .bank-logo {
+      margin-bottom: 20px; }
+      #OrderSuccess .order-success-page-header .bank-info .bank-logo img {
+        height: 40px; }
+    #OrderSuccess .order-success-page-header .bank-info p {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #404040; }
+      #OrderSuccess .order-success-page-header .bank-info p.rek {
+        font-size: 20px;
+        font-weight: 600; }
+    #OrderSuccess .order-success-page-header .button-confirm a {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: 'Karla', sans-serif;
+      font-size: 16px;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 5px;
+      background-color: #44b265; }
+      #OrderSuccess .order-success-page-header .button-confirm a:hover {
+        background-color: #00877a; }
+
+/*# sourceMappingURL=order-success.css.map */
