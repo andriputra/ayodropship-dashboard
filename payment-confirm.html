@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AyoDropship | Konfirmasi Pembayaran</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="assets/img/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=1024">
+        <meta name="description" content="Dashboard Ayo Dropship"/>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/mobile/responsive-style.css" rel="stylesheet">
+        <!-- Bootsrap 4.4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+<body>
+    <div id="dashboard">
+        <div class="side-menu">
+            <div class="side-menu-list">
+                <div class="side-menu-list-sticky">
+                    <i class="icon ic-sticky-logo"></i>
+                </div>
+                <ul class="side-menu-list-menu-listings">
+                    <li class="menu-item">
+                        <a href="index.html">
+                            <i class="icon ic-dashboard"></i>
+                            <p class="menu-item-name">DASHBOARD</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="profile.html">
+                            <i class="icon ic-profile"></i>
+                            <p class="menu-item-name">PROFILE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="afiliasi.html">
+                            <i class="icon ic-afiliasi"></i>
+                            <p class="menu-item-name">AFILIASI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="komisi.html">
+                            <i class="icon ic-komisi"></i>
+                            <p class="menu-item-name">KOMISI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="training.html">
+                            <i class="icon ic-training"></i>
+                            <p class="menu-item-name">TRAINING</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="update.html">
+                            <i class="icon ic-update"></i>
+                            <p class="menu-item-name">UPDATE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="active">
+                            <i class="icon ic-shop"></i>
+                            <p class="menu-item-name">SHOP</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="login.html">
+                            <i class="icon ic-logout"></i>
+                            <p class="menu-item-name">LOGOUT</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top-bar">
+                <div class="top-bar-search">
+                    <input class="field-input" placeholder="Search..."/>
+                    <a href="#">
+                        <i class="icon ic-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="PaymentConfirm" class="content-area">
+                <div class="container">
+                    <h2 class="page-title komisi">Konfirmasi Pembayaran</h2>
+                    <div class="payment-confirm-page">
+                        <p class="text-center title">
+                            Terima kasih telah berbelanja di ayodropship! Bila Anda telah melakukan pembayaran secara BANK TRANSFER, 
+                            Segera melakukan konfirmasi pembayaran Anda disini agar dapat kami proses segera.
+                        </p>
+                        <div class="form">
+                            <form class="form-confirm">
+                                <div class="row">
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Nomor Order *</label>
+                                            <input type="text" class="form-control" placeholder="Nomor Order" id="orderno">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Bank Anda *</label>
+                                            <select class="form-control">
+                                                <option>BCA</option>
+                                                <option>BRI</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Bank Tujuan *</label>
+                                            <select class="form-control">
+                                                <option>BCA</option>
+                                                <option>BRI</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Rekening Atas Nama *</label>
+                                            <input type="text" class="form-control" placeholder="Nomor Rekening" id="orderno">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Metode Transfer</label>
+                                            <input type="text" class="form-control" placeholder="ATM" id="orderno">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <div class="form-group">
+                                            <label for="orderno">Nominal Transfer</label>
+                                            <input type="text" class="form-control" placeholder="Nomor Rekening" id="orderno">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="orderno">Tanggal Transfer</label>
+                                    <input type="date" class="form-control" id="inlineFormInputGroup" placeholder="Tanggal Transfer">
+                                </div>
+                                <div class="form-group">
+                                    <label for="orderno">Bukti Transfer</label>
+                                    <input type="file" class="form-control" placeholder="Nomor Rekening" id="orderno">
+                                </div>
+                                <div class="button-send text-right">
+                                    <button type="submit" class="button btn-send">KIRIM</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p class="copyright">&copy; Copyrights 2019. Ayo Dropship</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -32,6 +32,9 @@
                     &.green{
                         color: $primarygreen;
                     }
+                    &.title{
+                        text-transform: uppercase;
+                    }
                 }
             }
             .table-detail-item{

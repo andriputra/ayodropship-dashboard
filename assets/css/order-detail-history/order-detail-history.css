@@ -23,6 +23,8 @@
         font-weight: 600; }
       #OrderDetailHistory .order-detail-history-page.content .detail-address p.green {
         color: #44b265; }
+      #OrderDetailHistory .order-detail-history-page.content .detail-address p.title {
+        text-transform: uppercase; }
   #OrderDetailHistory .order-detail-history-page.content .table-detail-item table {
     width: 100%; }
     #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th {

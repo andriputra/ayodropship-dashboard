@@ -1,0 +1,35 @@
+#PaymentConfirm .payment-confirm-page {
+  padding: 40px 50px;
+  background-color: #ffffff; }
+  #PaymentConfirm .payment-confirm-page p.title {
+    color: #404040;
+    margin: 0 auto;
+    width: 840px; }
+  #PaymentConfirm .payment-confirm-page .form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 0px 20px; }
+    #PaymentConfirm .payment-confirm-page .form form.form-confirm label {
+      margin-bottom: 0px;
+      font-family: 'Karla', sans-serif;
+      font-size: 14px;
+      color: #404040; }
+    #PaymentConfirm .payment-confirm-page .form form.form-confirm .form-control {
+      font-family: 'Karla', sans-serif;
+      font-size: 14px;
+      padding: 5px 0px;
+      border-width: 0px 0px 1px 0px;
+      border-radius: 0px;
+      box-shadow: none; }
+    #PaymentConfirm .payment-confirm-page .form form.form-confirm .button-send button {
+      border: none;
+      font-family: 'Karla', sans-serif;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 16px;
+      background-color: #44b265;
+      padding: 8px 30px; }
+      #PaymentConfirm .payment-confirm-page .form form.form-confirm .button-send button:hover {
+        background-color: #00877a; }
+
+/*# sourceMappingURL=payment-confirm.css.map */

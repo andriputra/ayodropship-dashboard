@@ -1,0 +1,52 @@
+@import '../../css/color/color-style.scss';
+
+#PaymentConfirm{
+    .payment-confirm-page{
+        padding: 40px 50px;
+        background-color: $white;
+        p{
+            &.title{
+                color: $black;
+                margin: 0 auto;
+                width: 840px;
+            }
+        }
+        .form{
+            width: 600px;
+            margin: 0 auto;
+            padding: 40px 0px 20px;
+            form{
+                &.form-confirm{
+                    label{
+                        margin-bottom: 0px;
+                        font-family: 'Karla', sans-serif;
+                        font-size: 14px;
+                        color: $black;
+                    }
+                    .form-control{
+                        font-family: 'Karla', sans-serif;
+                        font-size: 14px;
+                        padding: 5px 0px;
+                        border-width: 0px 0px 1px 0px;
+                        border-radius: 0px;
+                        box-shadow: none;
+                    }
+                    .button-send{
+                        button{
+                            border: none;
+                            font-family: 'Karla', sans-serif;
+                            border-radius: 5px;
+                            color: $white;
+                            font-size: 16px;
+                            background-color: $primarygreen;
+                            padding: 8px 30px;
+                            &:hover{
+                                background-color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
