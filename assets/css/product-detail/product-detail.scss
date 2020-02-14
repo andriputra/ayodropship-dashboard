@@ -82,9 +82,26 @@
                             font-weight: 600;
                             font-family: 'Karla',sans-serif;
                             margin: 10px 0px 0px;
+                            width: 80%;
                             &:hover{
                                 background-color: $green;
                                 text-decoration: none;
+                            }
+                        }
+                        &.btn-add{
+                            display: inline-block;
+                            color: $primarygreen;
+                            border: 1px solid $primarygreen;
+                            border-radius: 5px;
+                            padding: 10px 20px;
+                            font-weight: 600;
+                            font-family: 'Karla',sans-serif;
+                            margin: 10px 0px 0px;
+                            width: 80%;
+                            &:hover{
+                                border:1px solid $green;
+                                text-decoration: none;
+                                color: $green;
                             }
                         }
                     }

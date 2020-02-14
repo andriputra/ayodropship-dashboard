@@ -1,4 +1,5 @@
 #Komisi .komisi-page {
+  margin: 0px;
   padding: 60px;
   background-color: #ffffff; }
   #Komisi .komisi-page .komisi-box {
@@ -44,7 +45,10 @@
   #Komisi .komisi-page .komisi-action .notify {
     display: flex; }
     #Komisi .komisi-page .komisi-action .notify i {
-      margin-right: 15px; }
+      margin-right: 0px;
+      vertical-align: middle; }
+      #Komisi .komisi-page .komisi-action .notify i.ic-info {
+        background-color: #44b265; }
     #Komisi .komisi-page .komisi-action .notify p {
       margin-bottom: 0px;
       font-style: italic; }

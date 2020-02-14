@@ -89,17 +89,41 @@ a {
       width: 48px;
       height: 37px;
       background-color: transparent; }
+    #dashboard i.icon.ic-calendar {
+      background-image: url("../img/icon_calendar.png");
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      background-color: transparent; }
+    #dashboard i.icon.ic-info {
+      -webkit-mask: url("../img/icon_info.svg") no-repeat 50% 50%;
+      mask: url("../img/icon_info.svg") no-repeat 50% 50%;
+      width: 24px;
+      height: 24px; }
     #dashboard i.icon.ic-upgrade {
       background-image: url("../img/icon_upgrade.png");
       background-repeat: no-repeat;
       width: 48px;
       height: 45px;
       background-color: transparent; }
+    #dashboard i.icon.ic-step-1 {
+      -webkit-mask: url("../img/icon_step1.svg") no-repeat 50% 50%;
+      mask: url("../img/icon_step1.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-step-2 {
+      -webkit-mask: url("../img/icon_step2.svg") no-repeat 50% 50%;
+      mask: url("../img/icon_step2.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-step-3 {
+      -webkit-mask: url("../img/icon_step3.svg") no-repeat 50% 50%;
+      mask: url("../img/icon_step3.svg") no-repeat 50% 50%; }
+    #dashboard i.icon.ic-step-4 {
+      -webkit-mask: url("../img/icon_step4.svg") no-repeat 50% 50%;
+      mask: url("../img/icon_step4.svg") no-repeat 50% 50%; }
   #dashboard .side-menu {
     position: fixed;
     left: 0px;
     height: 100vh;
     width: 120px;
+    z-index: 2;
     background-color: #00877a; }
     #dashboard .side-menu-list-sticky {
       min-height: 75px;
@@ -149,8 +173,9 @@ a {
       background-color: #ffffff;
       position: fixed;
       top: 0px;
-      width: 92%;
-      z-index: 1; }
+      width: 100%;
+      z-index: 1;
+      left: 0px; }
       #dashboard .content .top-bar-search {
         text-align: right;
         padding: 10px 30px; }
@@ -174,10 +199,11 @@ a {
             outline: none; }
     #dashboard .content .bottom-bar {
       background-color: #ffffff;
-      padding: 20px 30px;
+      padding: 20px 30px 20px 145px;
       position: fixed;
       bottom: 0px;
-      width: 92%; }
+      width: 100%;
+      left: 0px; }
       #dashboard .content .bottom-bar .copyright {
         margin-bottom: 0px;
         font-size: 16px; }

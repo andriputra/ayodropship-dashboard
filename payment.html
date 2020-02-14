@@ -5,7 +5,6 @@
         <meta charset="utf-8" />
         <link rel="icon" href="assets/img/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=1024">
         <meta name="description" content="Dashboard Ayo Dropship"/>
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/mobile/responsive-style.css" rel="stylesheet">
@@ -14,7 +13,67 @@
     </head>
 <body>
     <div id="dashboard">
-        <div class="side-menu">
+        <!-- Mobile Menu -->
+        <div id="mySidenav" class="sidenav d-block d-sm-none">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <div class="side-menu-list">
+                <div class="side-menu-list-sticky" onclick="closeNav()">
+                    <i class="icon ic-sticky-logo"></i>
+                </div>
+                <ul class="side-menu-list-menu-listings">
+                    <li class="menu-item">
+                        <a href="index.html">
+                            <i class="icon ic-dashboard"></i>
+                            <p class="menu-item-name">DASHBOARD</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="profile.html">
+                            <i class="icon ic-profile"></i>
+                            <p class="menu-item-name">PROFILE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="afiliasi.html">
+                            <i class="icon ic-afiliasi"></i>
+                            <p class="menu-item-name">AFILIASI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="komisi.html">
+                            <i class="icon ic-komisi"></i>
+                            <p class="menu-item-name">KOMISI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="training.html">
+                            <i class="icon ic-training"></i>
+                            <p class="menu-item-name">TRAINING</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="update.html">
+                            <i class="icon ic-update"></i>
+                            <p class="menu-item-name">UPDATE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="active">
+                            <i class="icon ic-shop"></i>
+                            <p class="menu-item-name">SHOP</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="login.html">
+                            <i class="icon ic-logout"></i>
+                            <p class="menu-item-name">LOGOUT</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Menu -->
+        <div class="side-menu d-none d-sm-block">
             <div class="side-menu-list">
                 <div class="side-menu-list-sticky">
                     <i class="icon ic-sticky-logo"></i>
@@ -73,6 +132,7 @@
         </div>
         <div class="content">
             <div class="top-bar">
+                <span onclick="openNav()" class="mobile-menu d-block d-sm-none">&#9776;</span>
                 <div class="top-bar-search">
                     <input class="field-input" placeholder="Search..."/>
                     <a href="#">
@@ -138,8 +198,7 @@
                                         <tr>
                                             <td colspan="2">Sub total</td>
                                             <td>2 (1300 gram)</td>
-                                            <td>Rp 1.115.000</td>
-                                            <td></td>
+                                            <td colspan="2">Rp 1.115.000</td>
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -157,7 +216,7 @@
                                     <div class="mb-3">
                                         <label>Kirim Sebagai</label>
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-lg-6 col-xs-12">
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="custom-control custom-radio">
@@ -177,7 +236,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-xs-12">
                                             <div class="mb-3">
                                                 <label for="penerima">Nama Penerima</label>
                                                 <input type="text" class="form-control" id="penerima" placeholder="">
@@ -199,7 +258,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-xs-12">
                                             <div class="mb-3">
                                                 <label for="hp">Nomor Handphone</label>
                                                 <input type="text" class="form-control" id="hp" placeholder="">
@@ -223,7 +282,7 @@
                                         <textarea class="form-control" id="address" placeholder=""></textarea>
                                     </div>
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-lg-4 col-xs-12">
                                             <div class="mb-3">
                                                 <label for="city">Pengiriman dari</label>
                                                 <select class="form-control" id="city">
@@ -233,7 +292,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-lg-4 col-xs-12">
                                             <div class="mb-3">
                                                 <label for="courier">Kurir</label>
                                                 <select class="form-control" id="courier">
@@ -243,7 +302,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-lg-4 col-xs-12">
                                             <div class="mb-3">
                                                 <label for="courier">Jasa Pengiriman</label>
                                                 <select class="form-control" id="courier">
@@ -266,13 +325,13 @@
                         <div class="payment-page-content">
                             <div class="form-dropship">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-lg-6 col-xs-12">
                                         <div class="">
                                             <label for="toko">Nama Toko</label>
                                             <input type="text" class="form-control" id="toko" placeholder="">
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-lg-6 col-xs-12">
                                         <div class="">
                                             <label for="toko">Nomor Handphone</label>
                                             <input type="text" class="form-control" id="toko" placeholder="">
@@ -320,5 +379,14 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 </html>

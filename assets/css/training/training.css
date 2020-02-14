@@ -48,11 +48,11 @@ a {
           color: #404040;
           margin-bottom: 5px; }
     #Training.content-area .training-page .tab-content .training-tab-panel.training-tab-video .box-video .button {
+      display: none;
       background: #44b265;
       color: #ffffff;
       font-size: 16px;
       font-weight: 600;
-      display: inline-block;
       width: 120px;
       text-align: center;
       padding: 8px 10px;

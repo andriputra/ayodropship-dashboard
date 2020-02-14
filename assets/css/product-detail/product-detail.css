@@ -64,10 +64,25 @@
         padding: 10px 20px;
         font-weight: 600;
         font-family: 'Karla',sans-serif;
-        margin: 10px 0px 0px; }
+        margin: 10px 0px 0px;
+        width: 80%; }
         #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy:hover {
           background-color: #00877a;
           text-decoration: none; }
+      #DetailProduct .detail-page-content .product-area .button-buy a.btn-add {
+        display: inline-block;
+        color: #44b265;
+        border: 1px solid #44b265;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-family: 'Karla',sans-serif;
+        margin: 10px 0px 0px;
+        width: 80%; }
+        #DetailProduct .detail-page-content .product-area .button-buy a.btn-add:hover {
+          border: 1px solid #00877a;
+          text-decoration: none;
+          color: #00877a; }
     #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td {
       border-top: 0px;
       border-bottom: 1px solid #dfdfdf;

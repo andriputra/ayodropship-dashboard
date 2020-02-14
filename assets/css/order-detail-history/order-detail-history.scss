@@ -116,6 +116,54 @@
                 color: $black;
                 font-family: 'Karla', sans-serif;
             }
+            .notification-info{
+                ul.steps{
+                    margin: 0px;
+                    list-style: none;
+                    padding-left: 0px;
+                    display: block;
+                    text-align: right;
+                    li{
+                        position: relative;
+                        display: inline-block;
+                        width: 15%;
+                        text-align: left;
+                        i{
+                            &.icon{
+                                background-color: $softgray;
+                                width: 45px;
+                                height: 45px;
+                            }
+                        }
+                        &::after{
+                            content: '';
+                            height: 1px;
+                            width: 30px;
+                            background-color: $softgray;
+                            display: block;
+                            position: absolute;
+                            right: 0px;
+                            top: 44%;
+                        }
+                        &.active{
+                            i{
+                                &.icon{
+                                    background-color: $green;
+                                }
+                            }
+                            &::after{
+                                background-color: $green;
+                            }
+                        }
+                        &:last-child{
+                            width: auto;
+                            &::after{
+                                content: none;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

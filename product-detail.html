@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <link rel="icon" href="assets/img/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=1024">
+        
         <meta name="description" content="Dashboard Ayo Dropship"/>
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/mobile/responsive-style.css" rel="stylesheet">
@@ -14,7 +14,67 @@
     </head>
 <body>
     <div id="dashboard">
-        <div class="side-menu">
+        <!-- Mobile Menu -->
+        <div id="mySidenav" class="sidenav d-block d-sm-none">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <div class="side-menu-list">
+                <div class="side-menu-list-sticky" onclick="closeNav()">
+                    <i class="icon ic-sticky-logo"></i>
+                </div>
+                <ul class="side-menu-list-menu-listings">
+                    <li class="menu-item">
+                        <a href="index.html">
+                            <i class="icon ic-dashboard"></i>
+                            <p class="menu-item-name">DASHBOARD</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="profile.html">
+                            <i class="icon ic-profile"></i>
+                            <p class="menu-item-name">PROFILE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="afiliasi.html">
+                            <i class="icon ic-afiliasi"></i>
+                            <p class="menu-item-name">AFILIASI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="komisi.html">
+                            <i class="icon ic-komisi"></i>
+                            <p class="menu-item-name">KOMISI</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="training.html">
+                            <i class="icon ic-training"></i>
+                            <p class="menu-item-name">TRAINING</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="update.html">
+                            <i class="icon ic-update"></i>
+                            <p class="menu-item-name">UPDATE</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="active">
+                            <i class="icon ic-shop"></i>
+                            <p class="menu-item-name">SHOP</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="login.html">
+                            <i class="icon ic-logout"></i>
+                            <p class="menu-item-name">LOGOUT</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Menu -->
+        <div class="side-menu d-none d-sm-block">
             <div class="side-menu-list">
                 <div class="side-menu-list-sticky">
                     <i class="icon ic-sticky-logo"></i>
@@ -73,6 +133,7 @@
         </div>
         <div class="content">
             <div class="top-bar">
+                <span onclick="openNav()" class="mobile-menu d-block d-sm-none">&#9776;</span>
                 <div class="top-bar-search">
                     <input class="field-input" placeholder="Search..."/>
                     <a href="#">
@@ -96,7 +157,7 @@
                         </div>
                         <div class="detail-page-content">
                             <div class="row">
-                                <div class="col-3">
+                                <div class="col-lg-3 col-xs-12">
                                     <div class="product-area">
                                         <div class="image-product">
                                             <img src="assets/img/product.png" class="img-fluid"/>
@@ -104,9 +165,12 @@
                                         <div class="button-buy">
                                             <a class="button btn-buy" href="payment.html">BUY PRODUCT</a>
                                         </div>
+                                        <div class="button-buy">
+                                            <a class="button btn-add" href="#">ADD TO CART</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-9">
+                                <div class="col-lg-9 col-xs-12">
                                     <div class="description-product">
                                         <div class="table-repsonsive">
                                             <table class="table">
@@ -164,5 +228,14 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 </html>

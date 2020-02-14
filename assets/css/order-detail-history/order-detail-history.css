@@ -73,5 +73,37 @@
     margin-bottom: 0px;
     color: #404040;
     font-family: 'Karla', sans-serif; }
+  #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps {
+    margin: 0px;
+    list-style: none;
+    padding-left: 0px;
+    display: block;
+    text-align: right; }
+    #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li {
+      position: relative;
+      display: inline-block;
+      width: 15%;
+      text-align: left; }
+      #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li i.icon {
+        background-color: #dfdfdf;
+        width: 45px;
+        height: 45px; }
+      #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li::after {
+        content: '';
+        height: 1px;
+        width: 30px;
+        background-color: #dfdfdf;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 44%; }
+      #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li.active i.icon {
+        background-color: #00877a; }
+      #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li.active::after {
+        background-color: #00877a; }
+      #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li:last-child {
+        width: auto; }
+        #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li:last-child::after {
+          content: none; }
 
 /*# sourceMappingURL=order-detail-history.css.map */

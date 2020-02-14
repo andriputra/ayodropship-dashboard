@@ -2,6 +2,7 @@
 
 #Komisi{
     .komisi-page{
+        margin: 0px;
         padding: 60px;
         background-color: $white;
         .komisi-box{
@@ -60,7 +61,11 @@
             .notify{
                 display: flex;
                 i{
-                    margin-right: 15px;
+                    margin-right: 0px;
+                    vertical-align: middle;
+                    &.ic-info{
+                        background-color: $primarygreen;
+                    }
                 }
                 p{
                     margin-bottom: 0px;

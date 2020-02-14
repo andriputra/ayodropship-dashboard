@@ -75,10 +75,8 @@
             color: #44b265;
             font-weight: 600; }
       #Shop .shop-page-content-box .product .button-buy {
-        display: none; }
-      #Shop .shop-page-content-box .product:hover .button-buy {
         display: block; }
-        #Shop .shop-page-content-box .product:hover .button-buy a {
+        #Shop .shop-page-content-box .product .button-buy a {
           position: absolute;
           background-color: #44b265;
           top: 50%;
@@ -93,7 +91,7 @@
           padding: 10px;
           font-weight: 600;
           text-decoration: none; }
-          #Shop .shop-page-content-box .product:hover .button-buy a:hover {
+          #Shop .shop-page-content-box .product .button-buy a:hover {
             background-color: #00877a; }
   #Shop .shop-page-footer {
     padding: 30px 50px; }

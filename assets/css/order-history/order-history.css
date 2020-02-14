@@ -21,7 +21,10 @@
       height: 40px; }
     #OrderHistory .header-filter-block.search {
       width: 40%;
-      margin-right: 0px; }
+      margin-right: 0px;
+      border-left: 1px solid #ced4da;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
       #OrderHistory .header-filter-block.search .input-group .form-control {
         border-left: 1px;
         border-right: 0px; }

@@ -55,11 +55,12 @@
                                 }
                             }
                             .button{
+                                display: none;
                                 background: $primarygreen;
                                 color: $white;
                                 font-size: 16px;
                                 font-weight: 600;
-                                display: inline-block;
+                                // display: inline-block;
                                 width: 120px;
                                 text-align: center;
                                 padding: 8px 10px;
