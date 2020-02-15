@@ -83,17 +83,17 @@
           border: 1px solid #00877a;
           text-decoration: none;
           color: #00877a; }
-    #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td {
+    #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td {
       border-top: 0px;
       border-bottom: 1px solid #dfdfdf;
       font-family: 'Karla', sans-serif;
       font-size: 16px;
       padding: 15px 0px; }
-      #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td.title {
+      #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td.title {
         font-weight: 600;
         color: #404040;
         width: 25%; }
-      #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td.info {
+      #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td.info {
         color: #808080; }
 
 /*# sourceMappingURL=product-detail.css.map */

@@ -18,51 +18,57 @@ a {
   font-family: 'Karla', sans-serif; }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .mobile-menu {
-    font-size: 30px;
-    color: #00877a;
-    cursor: pointer;
-    margin-left: 25px;
-    vertical-align: middle; }
-    .mobile-menu.d-block {
-      display: inline-block !important; }
-
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
+  #dashboard .navbar {
     background-color: #00877a;
-    overflow-x: hidden;
-    transition: 0.5s; }
-    .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s; }
-      .sidenav a:hover {
-        color: #f1f1f1; }
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px; }
-
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99; }
+    #dashboard .navbar .navbar-menu-mobile {
+      display: flex;
+      justify-content: space-between; }
+      #dashboard .navbar .navbar-menu-mobile .navbar-brand {
+        width: 55%; }
+      #dashboard .navbar .navbar-menu-mobile .button-menu-toggle {
+        padding: 0px; }
+      #dashboard .navbar .navbar-menu-mobile .menu-icon {
+        display: block;
+        padding: 0px 6px 3px;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        font-size: 30px;
+        line-height: 30px; }
+    #dashboard .navbar .navbar-collapse {
+      margin-top: 10px; }
   #dashboard .side-menu-list-sticky {
     padding: 12px;
     min-height: 100%; }
-  #dashboard .side-menu-list-menu-listings .menu-item::after {
-    width: 60%;
-    left: 20%; }
+  #dashboard .side-menu-list-menu-listings .menu-item {
+    min-height: auto; }
+    #dashboard .side-menu-list-menu-listings .menu-item a {
+      display: flex;
+      justify-content: stretch;
+      align-items: center;
+      padding: 10px;
+      min-height: auto; }
+      #dashboard .side-menu-list-menu-listings .menu-item a.active {
+        min-height: auto; }
+      #dashboard .side-menu-list-menu-listings .menu-item a i.icon {
+        margin-right: 15px;
+        -webkit-mask-size: contain;
+        width: 25px;
+        height: 25px; }
+      #dashboard .side-menu-list-menu-listings .menu-item a p {
+        font-size: 14px; }
+    #dashboard .side-menu-list-menu-listings .menu-item::after {
+      width: 100%;
+      left: 0px; }
   #dashboard .content {
     margin-left: 0px; }
     #dashboard .content .top-bar {
-      box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px; }
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+      display: none; }
     #dashboard .content .top-bar-search {
       display: inline-block;
       width: 82%;
@@ -75,7 +81,7 @@ a {
         vertical-align: middle;
         top: 4px; }
     #dashboard .content .content-area {
-      padding: 75px 0px 80px; }
+      padding: 80px 0px 80px; }
       #dashboard .content .content-area .page-title {
         font-size: 22px !important; }
       #dashboard .content .content-area .profile-box {
@@ -108,7 +114,8 @@ a {
         width: 100%; }
     #dashboard .content .bottom-bar {
       padding: 10px;
-      border-top: 1px solid #eaeaea; }
+      border-top: 1px solid #eaeaea;
+      position: absolute; }
       #dashboard .content .bottom-bar .copyright {
         text-align: center;
         font-size: 12px; }
@@ -126,8 +133,12 @@ a {
       width: 100%; }
       #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now {
         margin-bottom: 0px; }
+        #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now .button-area .button {
+          width: 100%; }
       #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form {
         padding: 8px; }
+      #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-new .button-area button {
+        width: 100%; }
 
   #Afiliasi.content-area .afiliasi-page {
     padding: 20px; }
@@ -229,6 +240,24 @@ a {
         height: 24px;
         background-size: contain; }
 
+  #Shop .shop-search .form-search {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between; }
+    #Shop .shop-search .form-search .field-input {
+      font-family: 'Karla', sans-serif;
+      font-size: 12px;
+      padding: 0px 10px;
+      width: 100%;
+      height: 40px; }
+    #Shop .shop-search .form-search a {
+      display: inline-block;
+      padding: 0px 7px;
+      height: 40px;
+      background-color: #ffffff;
+      border-left: 1px solid #dfdfdf; }
+  #Shop.content-area h2.page-title.shop {
+    margin-bottom: 15px; }
   #Shop .shop-page-header {
     padding: 15px; }
     #Shop .shop-page-header .category {
@@ -262,7 +291,7 @@ a {
       margin-bottom: 20px; }
       #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy, #DetailProduct .detail-page-content .product-area .button-buy a.btn-add {
         width: 100%; }
-    #DetailProduct .detail-page-content .description-product .table-repsonsive table tbody tr td {
+    #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td {
       padding: 8px 5px;
       font-size: 14px; }
 
@@ -334,6 +363,8 @@ a {
       margin-bottom: 15px; }
       #OrderHistory .order-history-page .detail-box-content .col-xs-12:last-child {
         margin-bottom: 0px; }
+    #OrderHistory .order-history-page .detail-box-content .button-confirm a.button {
+      width: 100%; }
 
   #OrderDetailHistory .page-title.shop {
     font-size: 20px !important; }
@@ -345,11 +376,11 @@ a {
       margin-bottom: 15px; }
   #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th {
     padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:first-child {
+    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:last-child {
       padding: 10px; }
   #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td {
     padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:first-child {
+    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:last-child {
       padding: 10px; }
     #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(3), #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(4) {
       white-space: nowrap; }
@@ -390,6 +421,8 @@ a {
         font-family: 'Karla', sans-serif;
         font-size: 13px;
         color: #ffffff; }
+      #Login .login-box-half.form-area .login-form .forget-area .text-link {
+        color: #ffffff; }
 
   #Register .register-box {
     display: block; }
@@ -405,6 +438,8 @@ a {
       #Register .register-box-half.form-area .register-form-title {
         color: #ffffff;
         margin-bottom: 5px; }
+      #Register .register-box-half.form-area .register-form .login-link {
+        color: #ffffff; }
       #Register .register-box-half.form-area .register-form form.registration label {
         color: #ffffff; }
       #Register .register-box-half.form-area .register-form form.registration .form-control {
@@ -417,6 +452,14 @@ a {
       #Register .register-box-half.form-area .register-form form.registration .mb-3 {
         margin-bottom: 5px !important; }
       #Register .register-box-half.form-area .register-form form.registration .button.btn-submit {
-        margin-bottom: 5px; } }
+        margin-bottom: 5px; }
+
+  #Support .support-page-header {
+    padding: 15px 0px; }
+  #Support .support-page-content {
+    width: 100%;
+    padding: 20px; }
+    #Support .support-page-content .support-form .button-cta .button {
+      width: 100%; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
