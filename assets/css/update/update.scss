@@ -32,8 +32,9 @@
                     color: $primarygreen;
                 }
                 .button{
+                    margin-bottom: 5px;
                     &.btn-edit{
-                        width: 90%;
+                        width: 100%;
                         color: $white;
                         font-weight: 600;
                         height: 45px;
@@ -46,6 +47,30 @@
                             background-color: $green;
                         }
                     }
+                    &.btn-upgrade{
+                        display: inline-block;
+                        text-decoration: none;
+                        text-align: center;
+                        font-weight: 600;
+                        color: $white;
+                        border-radius: 5px;
+                        padding: 10px;
+                        width: 100%;
+                        background-color:$green;
+                        font-size: 18px;
+                        .icon{
+                            margin-right: 15px;
+                            vertical-align: middle;
+                            &.ic-upgrade{
+                                width: 32px;
+                                height: 32px;
+                                background-size: contain
+                            }
+                        }
+                        &:hover{
+                            background-color:$primarygreen;
+                        }
+                    }
                 }
             }
             &-bottom{
@@ -53,6 +78,23 @@
                     font-weight: 600;
                     margin-bottom: 10px;
                     font-size: 16px;
+                }
+                .product-fav{
+                    a{
+                        display: block;
+                        border: 1px solid $primarygreen;
+                        border-radius: 4px;
+                        text-align: center;
+                        img{
+                            border-radius: 4px;
+                            object-fit: cover;
+                            width: 286px;
+                            height: 250px;
+                        }
+                        &:hover{
+                            border-color: $green;
+                        }
+                    }
                 }
                 .update-cta{
                     .button{

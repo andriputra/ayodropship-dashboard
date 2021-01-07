@@ -1,6 +1,25 @@
-@import './font/font-style.scss';
-@import './color/color-style.scss';
+@import '../font/font-style.scss';
+@import '../color/color-style.scss';
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00776c; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #16ad9e; 
+}
 #dashboard{
     position: relative;
     i{
@@ -15,8 +34,9 @@
                 background-image: url('../img/stickyLogo.png');
                 background-repeat: no-repeat;
                 width: 43px;
-                height: 36px;
+                height: 44px;
                 background-color: transparent;
+                background-position: center 7px;
             }
             &.ic-search{
                 -webkit-mask: url('../img/Icon_Search.svg') no-repeat 50% 50%;
@@ -136,16 +156,18 @@
         background-color: $green;
         &-list{
             &-sticky{
-                min-height: 75px;
+                min-height: 70px;
                 text-align: center;
                 background-color: #00776c;
-                padding: 16px;
+                padding: 10px;
             }
             &-menu{
                 &-listings{
                     padding-left: 0px;
                     margin-bottom: 0px;
                     list-style: none;
+                    height: 100vh;
+                    overflow-y: scroll;
                     .menu-item{
                         min-height: 80px;
                         text-align: center;
@@ -205,9 +227,12 @@
             width: 100%;
             z-index: 1;
             left: 0px;
+            -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
+            box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
             &-search{
                 text-align: right;
-                padding: 10px 30px;
+                padding: 8px 30px;
                 a{
                     display: inline-block;
                     position: relative;
@@ -225,6 +250,8 @@
                     font-size: 16px;
                     color: $black;
                     font-family: 'Karla', sans-serif;
+                    position: relative;
+                    top: -5px;
                     &:hover, &:focus, &:active{
                         outline: none;
                     }
@@ -233,14 +260,17 @@
         }
         .bottom-bar{
             background-color: $white;
-            padding: 20px 30px 20px 145px;
+            padding: 10px 30px 10px 145px;
             position: fixed;
             bottom: 0px;
             width: 100%;
             left: 0px;
+            -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
+            box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.3);
             .copyright{
                 margin-bottom: 0px;
-                font-size: 16px;
+                font-size: 14px;
             }
         }
         .content-area{

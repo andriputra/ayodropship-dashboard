@@ -110,6 +110,9 @@
                         padding: 0px;
                         height: 30px;
                         box-shadow: none;
+                        &.disabled{
+                            padding: 0px 7px;
+                        }
                     }
                     select{
                         &.form-control{

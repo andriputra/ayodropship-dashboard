@@ -1,56 +1,104 @@
 #Komisi .komisi-page {
   margin: 0px;
   padding: 60px;
-  background-color: #ffffff; }
-  #Komisi .komisi-page .komisi-box {
-    display: flex;
-    margin-bottom: 30px; }
-    #Komisi .komisi-page .komisi-box-half {
-      flex: 0 0 50%;
-      border: 1px solid #d6d6d6;
-      padding: 30px; }
-      #Komisi .komisi-page .komisi-box-half p {
-        margin-bottom: 0px;
-        color: #404040; }
-        #Komisi .komisi-page .komisi-box-half p.title {
-          margin-bottom: 5px;
-          font-size: 18px;
-          font-weight: 600; }
-        #Komisi .komisi-page .komisi-box-half p.price {
-          font-size: 30px;
-          font-weight: 600;
-          line-height: 36px; }
-  #Komisi .komisi-page .komisi-action .title p {
-    margin-bottom: 20px;
-    font-size: 26px;
-    color: #404040;
-    font-weight: 600;
-    line-height: 26px; }
-  #Komisi .komisi-page .komisi-action .button-action {
-    margin-bottom: 10px; }
-    #Komisi .komisi-page .komisi-action .button-action .button {
-      padding: 10px 40px;
-      background-color: #44b265;
-      color: #ffffff;
-      font-weight: 600;
-      border-radius: 5px;
-      border: none;
-      box-shadow: none;
-      font-size: 20px; }
-      #Komisi .komisi-page .komisi-action .button-action .button:hover {
-        background-color: #00877a; }
-      #Komisi .komisi-page .komisi-action .button-action .button i {
-        margin-right: 15px;
-        vertical-align: middle; }
-  #Komisi .komisi-page .komisi-action .notify {
-    display: flex; }
-    #Komisi .komisi-page .komisi-action .notify i {
-      margin-right: 0px;
-      vertical-align: middle; }
-      #Komisi .komisi-page .komisi-action .notify i.ic-info {
-        background-color: #44b265; }
-    #Komisi .komisi-page .komisi-action .notify p {
-      margin-bottom: 0px;
-      font-style: italic; }
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+#Komisi .komisi-page .komisi-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+#Komisi .komisi-page .komisi-box-half {
+  flex: 0 0 50%;
+  border: 1px solid #d6d6d6;
+  padding: 30px;
+}
+#Komisi .komisi-page .komisi-box-half p {
+  margin-bottom: 0px;
+  color: #404040;
+}
+#Komisi .komisi-page .komisi-box-half p.title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#Komisi .komisi-page .komisi-box-half p.price {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+#Komisi .komisi-page.latest {
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#Komisi .komisi-page.latest .title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#Komisi .komisi-page.latest .history .table-responsive .table tr td {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+#Komisi .komisi-page.latest .history span.badge-status {
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 13px;
+  background-color: #00877a;
+  color: #ffffff;
+  font-size: 12px;
+}
+#Komisi .komisi-page.latest .history span.badge-status.proccess {
+  background-color: #404040;
+}
+#Komisi .komisi-page.latest .history span.badge-status.verify {
+  background-color: #ffcc00;
+}
+#Komisi .komisi-page.latest .history span.badge-status.paid {
+  background-color: #00877a;
+}
+#Komisi .komisi-page.latest .history span.badge-status.default {
+  background-color: #ef2753;
+}
+#Komisi .komisi-page .komisi-action .title p {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #404040;
+  font-weight: 600;
+  line-height: 26px;
+}
+#Komisi .komisi-page .komisi-action .button-action {
+  margin-bottom: 10px;
+}
+#Komisi .komisi-page .komisi-action .button-action .button {
+  padding: 10px 40px;
+  background-color: #44b265;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  font-size: 20px;
+}
+#Komisi .komisi-page .komisi-action .button-action .button:hover {
+  background-color: #00877a;
+}
+#Komisi .komisi-page .komisi-action .button-action .button i {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+#Komisi .komisi-page .komisi-action .notify {
+  display: flex;
+}
+#Komisi .komisi-page .komisi-action .notify i {
+  margin-right: 0px;
+  vertical-align: middle;
+}
+#Komisi .komisi-page .komisi-action .notify i.ic-info {
+  background-color: #44b265;
+}
+#Komisi .komisi-page .komisi-action .notify p {
+  margin-bottom: 0px;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=comission.css.map */

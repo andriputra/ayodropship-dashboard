@@ -56,6 +56,21 @@
                         font-weight: 600;
                         color: $black;
                     }
+                    select{
+                        &.form-control{
+                            width: 95%;
+                            background: #f4f4f4;
+                            border: none;
+                            padding: 0px;
+                            font-size: 26px;
+                            font-family: 'Karla',sans-serif;
+                            height: 35px;
+                        }
+                        &:focus{
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
                 }
                 &-copy{
                     position: absolute;
@@ -76,6 +91,19 @@
                         img{
                             width: 30px;
                         }
+                    }
+                }
+            }
+            .input-generator{
+                margin-bottom: 20px;
+                input{
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    border-radius: 0px;
+                    margin-bottom: 10px;
+                    height: 56px;
+                    &:last-child{
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -101,6 +129,30 @@
                 }
             }
             &-information{
+                .table-responsive{
+                    span{
+                        &.badge-status{
+                            display: inline-block;
+                            padding: 2px 13px;
+                            border-radius: 13px;
+                            background-color: $green;
+                            color: $white;
+                            font-size: 12px;
+                            &.proccess{
+                                background-color: $black ;
+                            }
+                            &.verify{
+                                background-color: $yellow ;
+                            }
+                            &.paid{
+                                background-color: $green ;
+                            }
+                            &.default{
+                                background-color: $red ;
+                            }
+                        }
+                    }
+                }
                 .blog-update{
                     border-bottom: 1px solid #dddddd;
                     padding-bottom: 20px;
