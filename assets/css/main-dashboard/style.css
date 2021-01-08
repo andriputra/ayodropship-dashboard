@@ -394,9 +394,6 @@ a {
   margin-bottom: 0px;
   border-bottom: 0px;
 }
-#dashboard .content .content-area .dashboard-feature .box-feature .listings.product li {
-  justify-content: space-between;
-}
 #dashboard .content .content-area .dashboard-feature .box-feature.latest h3 {
   border-bottom: 0px;
 }
