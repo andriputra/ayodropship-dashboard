@@ -365,6 +365,35 @@ a {
   font-size: 24px;
   font-weight: 600;
 }
+#dashboard .content .content-area .dashboard-feature .box-feature .ongoing-order {
+  margin: 10px 0px;
+}
+#dashboard .content .content-area .dashboard-feature .box-feature .ongoing-order-item {
+  border: 1px solid #dfdfdf;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#dashboard .content .content-area .dashboard-feature .box-feature .ongoing-order-item:last-child {
+  margin-bottom: 0px;
+}
+#dashboard .content .content-area .dashboard-feature .box-feature .ongoing-order-item span.title {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #404040;
+  margin-bottom: 5px;
+}
+#dashboard .content .content-area .dashboard-feature .box-feature .ongoing-order-item .item-product img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid #f4f4f4;
+}
 #dashboard .content .content-area .dashboard-feature .box-feature .listings {
   padding-left: 0px;
   margin-bottom: 0px;
