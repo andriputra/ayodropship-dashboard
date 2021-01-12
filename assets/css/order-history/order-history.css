@@ -2,113 +2,148 @@
   padding: 20px 50px;
   background-color: #ffffff;
   display: flex;
-  margin-bottom: 20px; }
-  #OrderHistory .header-filter-block {
-    width: 20%;
-    margin-right: 20px; }
-    #OrderHistory .header-filter-block .form-group {
-      margin-bottom: 0px; }
-    #OrderHistory .header-filter-block .input-group-prepend {
-      background-color: transparent; }
-    #OrderHistory .header-filter-block .input-group-text {
-      background-color: #ffffff;
-      border-right: 0px; }
-    #OrderHistory .header-filter-block .input-group .form-control {
-      border-left: none; }
-    #OrderHistory .header-filter-block .form-control {
-      font-size: 14px;
-      font-family: 'Karla', sans-serif;
-      height: 40px; }
-    #OrderHistory .header-filter-block.search {
-      width: 40%;
-      margin-right: 0px;
-      border-left: 1px solid #ced4da;
-      border-top-left-radius: 4px;
-      border-bottom-left-radius: 4px; }
-      #OrderHistory .header-filter-block.search .input-group .form-control {
-        border-left: 1px;
-        border-right: 0px; }
-      #OrderHistory .header-filter-block.search .input-group-append {
-        background-color: transparent; }
-        #OrderHistory .header-filter-block.search .input-group-append button {
-          border-color: #ced4da;
-          padding: 4px 14px 0px;
-          border-left: 0px; }
-          #OrderHistory .header-filter-block.search .input-group-append button .icon {
-            width: 20px;
-            height: 20px;
-            background-color: #808080; }
-          #OrderHistory .header-filter-block.search .input-group-append button:hover {
-            background-color: #00877a; }
-            #OrderHistory .header-filter-block.search .input-group-append button:hover .icon {
-              background-color: #ffffff; }
-      #OrderHistory .header-filter-block.search .input-group-text {
-        background-color: #ffffff;
-        border-right: 0px; }
+  margin-bottom: 20px;
+}
+#OrderHistory .header-filter-block {
+  width: 20%;
+  margin-right: 20px;
+}
+#OrderHistory .header-filter-block .form-group {
+  margin-bottom: 0px;
+}
+#OrderHistory .header-filter-block .input-group-prepend {
+  background-color: transparent;
+}
+#OrderHistory .header-filter-block .input-group-text {
+  background-color: #ffffff;
+  border-right: 0px;
+}
+#OrderHistory .header-filter-block .input-group .form-control {
+  border-left: none;
+}
+#OrderHistory .header-filter-block .form-control {
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  height: 40px;
+}
+#OrderHistory .header-filter-block.search {
+  width: 40%;
+  margin-right: 0px;
+  border-left: 1px solid #ced4da;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#OrderHistory .header-filter-block.search .input-group .form-control {
+  border-left: 1px;
+  border-right: 0px;
+}
+#OrderHistory .header-filter-block.search .input-group-append {
+  background-color: transparent;
+}
+#OrderHistory .header-filter-block.search .input-group-append button {
+  border-color: #ced4da;
+  padding: 4px 14px 0px;
+  border-left: 0px;
+}
+#OrderHistory .header-filter-block.search .input-group-append button .icon {
+  width: 20px;
+  height: 20px;
+  background-color: #808080;
+}
+#OrderHistory .header-filter-block.search .input-group-append button:hover {
+  background-color: #00877a;
+}
+#OrderHistory .header-filter-block.search .input-group-append button:hover .icon {
+  background-color: #ffffff;
+}
+#OrderHistory .header-filter-block.search .input-group-text {
+  background-color: #ffffff;
+  border-right: 0px;
+}
 #OrderHistory .order-history-page .detail-box {
-  margin-bottom: 20px; }
-  #OrderHistory .order-history-page .detail-box-header {
-    padding: 20px 50px;
-    background-color: #e2e2e2; }
-    #OrderHistory .order-history-page .detail-box-header p {
-      margin-bottom: 5px;
-      color: #404040;
-      font-size: 14px; }
-      #OrderHistory .order-history-page .detail-box-header p:last-child {
-        margin-bottom: 0px; }
-      #OrderHistory .order-history-page .detail-box-header p.bold {
-        font-weight: 600; }
-  #OrderHistory .order-history-page .detail-box-content {
-    background-color: #ffffff;
-    padding: 20px 50px; }
-    #OrderHistory .order-history-page .detail-box-content p {
-      margin-bottom: 5px;
-      color: #404040;
-      font-size: 14px; }
-      #OrderHistory .order-history-page .detail-box-content p.bold {
-        font-weight: 600; }
-      #OrderHistory .order-history-page .detail-box-content p:last-child {
-        margin-bottom: 0px; }
-    #OrderHistory .order-history-page .detail-box-content .product-detail {
-      display: flex; }
-      #OrderHistory .order-history-page .detail-box-content .product-detail-img {
-        width: 70px;
-        margin-right: 10px; }
-        #OrderHistory .order-history-page .detail-box-content .product-detail-img img {
-          border: 1px solid #dfdfdf; }
-    #OrderHistory .order-history-page .detail-box-content .button-confirm a {
-      text-decoration: none;
-      color: #ffffff;
-      font-family: 'Karla', sans-serif;
-      font-size: 16px;
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 5px;
-      background-color: #44b265; }
-      #OrderHistory .order-history-page .detail-box-content .button-confirm a:hover {
-        background-color: #00877a; }
+  margin-bottom: 20px;
+}
+#OrderHistory .order-history-page .detail-box-header {
+  padding: 10px 50px;
+  background-color: #e2e2e2;
+}
+#OrderHistory .order-history-page .detail-box-header p {
+  margin-bottom: 0px;
+  color: #404040;
+  font-size: 14px;
+}
+#OrderHistory .order-history-page .detail-box-header p:last-child {
+  margin-bottom: 0px;
+}
+#OrderHistory .order-history-page .detail-box-header p.bold {
+  font-weight: 600;
+}
+#OrderHistory .order-history-page .detail-box-content {
+  background-color: #ffffff;
+  padding: 10px 50px;
+}
+#OrderHistory .order-history-page .detail-box-content p {
+  margin-bottom: 0px;
+  color: #404040;
+  font-size: 14px;
+}
+#OrderHistory .order-history-page .detail-box-content p.bold {
+  font-weight: 600;
+}
+#OrderHistory .order-history-page .detail-box-content p:last-child {
+  margin-bottom: 0px;
+}
+#OrderHistory .order-history-page .detail-box-content .product-detail {
+  display: flex;
+}
+#OrderHistory .order-history-page .detail-box-content .product-detail-img {
+  width: 70px;
+  margin-right: 10px;
+}
+#OrderHistory .order-history-page .detail-box-content .product-detail-img img {
+  border: 1px solid #dfdfdf;
+}
+#OrderHistory .order-history-page .detail-box-content .button-confirm a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: #44b265;
+}
+#OrderHistory .order-history-page .detail-box-content .button-confirm a:hover {
+  background-color: #00877a;
+}
 #OrderHistory .order-history-page-footer .pagination {
-  text-align: right; }
-  #OrderHistory .order-history-page-footer .pagination ul.pagination-list {
-    display: block;
-    text-align: right;
-    margin-bottom: 0px;
-    list-style: none;
-    padding-left: 0px;
-    width: 100%; }
-  #OrderHistory .order-history-page-footer .pagination ul li {
-    display: inline-block; }
-    #OrderHistory .order-history-page-footer .pagination ul li a {
-      display: inline-block;
-      padding: 0px 10px;
-      color: #404040;
-      text-decoration: none;
-      font-family: 'Karla', sans-serif;
-      font-size: 15px;
-      font-weight: 600; }
-      #OrderHistory .order-history-page-footer .pagination ul li a.active {
-        color: #44b265; }
-      #OrderHistory .order-history-page-footer .pagination ul li a:hover {
-        color: #44b265; }
+  text-align: right;
+}
+#OrderHistory .order-history-page-footer .pagination ul.pagination-list {
+  display: block;
+  text-align: right;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+#OrderHistory .order-history-page-footer .pagination ul li {
+  display: inline-block;
+}
+#OrderHistory .order-history-page-footer .pagination ul li a {
+  display: inline-block;
+  padding: 0px 10px;
+  color: #404040;
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+#OrderHistory .order-history-page-footer .pagination ul li a.active {
+  color: #44b265;
+}
+#OrderHistory .order-history-page-footer .pagination ul li a:hover {
+  color: #44b265;
+}
 
 /*# sourceMappingURL=order-history.css.map */

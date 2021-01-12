@@ -209,13 +209,20 @@
                         </div>
                         <div class="afiliasi-page-refer">
                             <div class="afiliasi-page-refer-input">
-                                <p class="refer-link">https: // www. ayodropship .com/aff .php?aff=2916</p>
+                                <select class="form-control">
+                                    <option value="Ayodropship">Ayodropship</option>
+                                    <option value="Tokopedia">Tokopedia</option>
+                                </select>
                             </div>
                             <div class="afiliasi-page-refer-copy">
                                 <button class="iconbtn">
                                     <img src="assets/img/copy-icon.png" class="img-fluid"/>
                                 </button>
                             </div>
+                        </div>
+                        <div class="input-generator">
+                            <input type="text" class="form-control" placeholder="" value="Bandung">
+                            <input type="text" class="form-control" placeholder="" value="Bandung">
                         </div>
                         <div class="afiliasi-page-leads">
                             <div class="row">
@@ -241,47 +248,50 @@
                         </div>
                         <div class="afiliasi-page-information">
                             <div class="afiliasi-page-title">
-                                <h2>Latest Update</h2>
+                                <h2>History Komisi</h2>
                             </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="blog-update">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                        <p class="blog-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        </p>
-                                        <a href="#">Read More --></a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="blog-update">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                        <p class="blog-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        </p>
-                                        <a href="#">Read More --></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row last">
-                                <div class="col-6">
-                                    <div class="blog-update">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                        <p class="blog-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        </p>
-                                        <a href="#">Read More --></a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="blog-update">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                        <p class="blog-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        </p>
-                                        <a href="#">Read More --></a>
-                                    </div>
-                                </div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Tanggal</th>
+                                            <th class="text-center">Keterangan</th>
+                                            <th class="text-center">Status</th>
+                                            <th class="text-right">Nilai</th>
+                                            <th class="text-right">Saldo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2021-01-04 19:20:00</td>
+                                            <td class="text-left">Komisi Referensi Anggota dari sjo</td>
+                                            <td class="text-center"><span class="badge-status proccess">Proses</span></td>
+                                            <td class="text-right">+ 179.100</td>
+                                            <td class="text-right">179.100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2021-01-04 13:22:52</td>
+                                            <td class="text-left">Komisi Pesanan #002012218798041344</td>
+                                            <td class="text-center"><span class="badge-status verify">Terverifikasi</span></td>
+                                            <td class="text-right">+ 2.150.377</td>
+                                            <td class="text-right">2.150.377</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-11-20 16:00:01</td>
+                                            <td class="text-left">Komisi Pesanan #00201108419098825</td>
+                                            <td class="text-center"><span class="badge-status paid">Terbayarkan</span></td>
+                                            <td class="text-right">- 2.150.377</td>
+                                            <td class="text-right">0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-11-20 16:00:01</td>
+                                            <td class="text-left">Komisi Pesanan #00201108419098825</td>
+                                            <td class="text-center"><span class="badge-status default">Gagal</span></td>
+                                            <td class="text-right">- 2.150.377</td>
+                                            <td class="text-right">0</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>

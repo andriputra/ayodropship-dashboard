@@ -1,21 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Karla:400,400i,700,700i&display=swap");
 body, h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Karla', sans-serif;
-  color: #404040; }
+  font-family: "Karla", sans-serif;
+  color: #404040;
+}
 
 h1 {
   font-size: 36px !important;
-  font-weight: 600 !important; }
+  font-weight: 600 !important;
+}
 
 h2 {
   font-size: 30px !important;
-  font-weight: 600 !important; }
+  font-weight: 600 !important;
+}
 
 p {
-  color: #808080; }
+  color: #808080;
+}
 
 a {
-  font-family: 'Karla', sans-serif; }
+  font-family: "Karla", sans-serif;
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
   #dashboard .navbar {
@@ -23,443 +28,621 @@ a {
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: 99; }
-    #dashboard .navbar .navbar-menu-mobile {
-      display: flex;
-      justify-content: space-between; }
-      #dashboard .navbar .navbar-menu-mobile .navbar-brand {
-        width: 55%; }
-      #dashboard .navbar .navbar-menu-mobile .button-menu-toggle {
-        padding: 0px; }
-      #dashboard .navbar .navbar-menu-mobile .menu-icon {
-        display: block;
-        padding: 0px 6px 3px;
-        color: #ffffff;
-        border: 1px solid #ffffff;
-        border-radius: 4px;
-        font-size: 30px;
-        line-height: 30px; }
-    #dashboard .navbar .navbar-collapse {
-      margin-top: 10px; }
+    z-index: 99;
+  }
+  #dashboard .navbar .navbar-menu-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  #dashboard .navbar .navbar-menu-mobile .navbar-brand {
+    width: 55%;
+  }
+  #dashboard .navbar .navbar-menu-mobile .button-menu-toggle {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+  }
+  #dashboard .navbar .navbar-menu-mobile .menu-icon {
+    display: block;
+    padding: 0px 6px 3px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #dashboard .navbar .navbar-collapse {
+    margin-top: 10px;
+  }
   #dashboard .side-menu-list-sticky {
     padding: 12px;
-    min-height: 100%; }
+    min-height: 100%;
+  }
+  #dashboard .side-menu-list-menu-listings {
+    height: auto;
+    overflow-y: hidden;
+  }
   #dashboard .side-menu-list-menu-listings .menu-item {
-    min-height: auto; }
-    #dashboard .side-menu-list-menu-listings .menu-item a {
-      display: flex;
-      justify-content: stretch;
-      align-items: center;
-      padding: 10px;
-      min-height: auto; }
-      #dashboard .side-menu-list-menu-listings .menu-item a.active {
-        min-height: auto; }
-      #dashboard .side-menu-list-menu-listings .menu-item a i.icon {
-        margin-right: 15px;
-        -webkit-mask-size: contain;
-        width: 25px;
-        height: 25px; }
-      #dashboard .side-menu-list-menu-listings .menu-item a p {
-        font-size: 14px; }
-    #dashboard .side-menu-list-menu-listings .menu-item::after {
-      width: 100%;
-      left: 0px; }
+    min-height: auto;
+  }
+  #dashboard .side-menu-list-menu-listings .menu-item a {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 10px;
+    min-height: auto;
+  }
+  #dashboard .side-menu-list-menu-listings .menu-item a.active {
+    min-height: auto;
+  }
+  #dashboard .side-menu-list-menu-listings .menu-item a i.icon {
+    margin-right: 15px;
+    -webkit-mask-size: contain;
+    width: 25px;
+    height: 25px;
+  }
+  #dashboard .side-menu-list-menu-listings .menu-item a p {
+    font-size: 14px;
+  }
+  #dashboard .side-menu-list-menu-listings .menu-item::after {
+    width: 100%;
+    left: 0px;
+  }
   #dashboard .content {
-    margin-left: 0px; }
-    #dashboard .content .top-bar {
-      box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
-      display: none; }
-    #dashboard .content .top-bar-search {
-      display: inline-block;
-      width: 82%;
-      padding: 10px 0px; }
-      #dashboard .content .top-bar-search .field-input {
-        height: 40px;
-        padding: 0px 20px; }
-      #dashboard .content .top-bar-search a {
-        right: 15px;
-        vertical-align: middle;
-        top: 4px; }
-    #dashboard .content .content-area {
-      padding: 80px 0px 80px; }
-      #dashboard .content .content-area .page-title {
-        font-size: 22px !important; }
-      #dashboard .content .content-area .profile-box {
-        padding: 20px; }
-        #dashboard .content .content-area .profile-box-title h1 {
-          font-size: 20px !important;
-          text-align: center; }
-        #dashboard .content .content-area .profile-box-title p {
-          text-align: center; }
-        #dashboard .content .content-area .profile-box .image-profile {
-          display: block;
-          margin: 0 auto 10px; }
-        #dashboard .content .content-area .profile-box .button.btn-general {
-          display: block;
-          text-align: center;
-          padding: 10px;
-          height: 100%; }
-      #dashboard .content .content-area .dashboard-feature .col {
-        margin-bottom: 20px; }
-      #dashboard .content .content-area .dashboard-feature .box-feature {
-        min-height: 100%;
-        padding: 20px; }
-        #dashboard .content .content-area .dashboard-feature .box-feature p {
-          margin-bottom: 0px; }
-      #dashboard .content .content-area .dashboard-cta-commission {
-        margin-bottom: 20px; }
-      #dashboard .content .content-area .dashboard-cta-upgrade {
-        padding: 20px; }
-      #dashboard .content .content-area .dashboard-cta .button.btn-small {
-        width: 100%; }
-    #dashboard .content .bottom-bar {
-      padding: 10px;
-      border-top: 1px solid #eaeaea;
-      position: absolute; }
-      #dashboard .content .bottom-bar .copyright {
-        text-align: center;
-        font-size: 12px; }
+    margin-left: 0px;
+  }
+  #dashboard .content .top-bar {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+    display: none;
+  }
+  #dashboard .content .top-bar-search {
+    display: inline-block;
+    width: 82%;
+    padding: 10px 0px;
+  }
+  #dashboard .content .top-bar-search .field-input {
+    height: 40px;
+    padding: 0px 20px;
+  }
+  #dashboard .content .top-bar-search a {
+    right: 15px;
+    vertical-align: middle;
+    top: 4px;
+  }
+  #dashboard .content .content-area {
+    padding: 80px 0px 80px;
+  }
+  #dashboard .content .content-area .page-title {
+    font-size: 22px !important;
+  }
+  #dashboard .content .content-area .profile-box {
+    padding: 20px;
+  }
+  #dashboard .content .content-area .profile-box-title h1 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  #dashboard .content .content-area .profile-box-title p {
+    text-align: center;
+  }
+  #dashboard .content .content-area .profile-box .image-profile {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  #dashboard .content .content-area .profile-box .button.btn-general {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+  }
+  #dashboard .content .content-area .dashboard-feature .col {
+    margin-bottom: 20px;
+  }
+  #dashboard .content .content-area .dashboard-feature .box-feature {
+    min-height: 100%;
+    padding: 20px;
+  }
+  #dashboard .content .content-area .dashboard-feature .box-feature p {
+    margin-bottom: 0px;
+  }
+  #dashboard .content .content-area .dashboard-cta-commission {
+    margin-bottom: 20px;
+  }
+  #dashboard .content .content-area .dashboard-cta-upgrade {
+    padding: 20px;
+  }
+  #dashboard .content .content-area .dashboard-cta .button.btn-small {
+    width: 100%;
+  }
+  #dashboard .content .bottom-bar {
+    padding: 10px;
+    border-top: 1px solid #eaeaea;
+    position: absolute;
+  }
+  #dashboard .content .bottom-bar .copyright {
+    text-align: center;
+    font-size: 12px;
+  }
 
   #Profile.content-area h2.page-title.profile {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item {
-    width: 32%; }
-    #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item a.nav-link {
-      font-size: 13px;
-      padding: 10px 0px; }
+    width: 32%;
+  }
+  #Profile.content-area .profile-page ul.nav.nav-tabs li.nav-item a.nav-link {
+    font-size: 13px;
+    padding: 10px 0px;
+  }
   #Profile.content-area .profile-page .tab-content {
-    padding: 20px; }
-    #Profile.content-area .profile-page .tab-content .profile-page-password {
-      width: 100%; }
-      #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now {
-        margin-bottom: 0px; }
-        #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now .button-area .button {
-          width: 100%; }
-      #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form {
-        padding: 8px; }
-      #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-new .button-area button {
-        width: 100%; }
+    padding: 20px;
+  }
+  #Profile.content-area .profile-page .tab-content .profile-page-password {
+    width: 100%;
+  }
+  #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now {
+    margin-bottom: 0px;
+  }
+  #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-now .button-area .button {
+    width: 100%;
+  }
+  #Profile.content-area .profile-page .tab-content .profile-page-password.profile-page-rekening .info-bar-form {
+    padding: 8px;
+  }
+  #Profile.content-area .profile-page .tab-content .profile-page-password .profile-password-form-new .button-area button {
+    width: 100%;
+  }
 
   #Afiliasi.content-area .afiliasi-page {
-    padding: 20px; }
-    #Afiliasi.content-area .afiliasi-page-title {
-      margin-bottom: 10px; }
-      #Afiliasi.content-area .afiliasi-page-title h2 {
-        font-size: 20px !important; }
-    #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box {
-      margin-bottom: 20px; }
-    #Afiliasi.content-area .afiliasi-page-refer-input {
-      padding: 8px 70px 8px 10px; }
-      #Afiliasi.content-area .afiliasi-page-refer-input p {
-        font-size: 12px; }
-    #Afiliasi.content-area .afiliasi-page-refer-copy {
-      line-height: 53px; }
-      #Afiliasi.content-area .afiliasi-page-refer-copy .iconbtn img {
-        width: 25px; }
-    #Afiliasi.content-area .afiliasi-page-leads-box {
-      padding: 10px;
-      margin-bottom: 10px; }
-      #Afiliasi.content-area .afiliasi-page-leads-box p.info {
-        font-size: 20px; }
-    #Afiliasi.content-area .afiliasi-page-information .blog-update {
-      padding-bottom: 5px; }
-      #Afiliasi.content-area .afiliasi-page-information .blog-update p {
-        font-size: 12px;
-        line-height: 15px; }
-      #Afiliasi.content-area .afiliasi-page-information .blog-update a {
-        font-size: 12px; }
+    padding: 20px;
+  }
+  #Afiliasi.content-area .afiliasi-page-title {
+    margin-bottom: 10px;
+  }
+  #Afiliasi.content-area .afiliasi-page-title h2 {
+    font-size: 20px !important;
+  }
+  #Afiliasi.content-area .afiliasi-page-stats .afiliasi-box {
+    margin-bottom: 20px;
+  }
+  #Afiliasi.content-area .afiliasi-page-refer-input {
+    padding: 8px 70px 8px 10px;
+  }
+  #Afiliasi.content-area .afiliasi-page-refer-input p {
+    font-size: 12px;
+  }
+  #Afiliasi.content-area .afiliasi-page-refer-copy {
+    line-height: 53px;
+  }
+  #Afiliasi.content-area .afiliasi-page-refer-copy .iconbtn img {
+    width: 25px;
+  }
+  #Afiliasi.content-area .afiliasi-page-leads-box {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #Afiliasi.content-area .afiliasi-page-leads-box p.info {
+    font-size: 20px;
+  }
+  #Afiliasi.content-area .afiliasi-page-information .blog-update {
+    padding-bottom: 5px;
+  }
+  #Afiliasi.content-area .afiliasi-page-information .blog-update p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #Afiliasi.content-area .afiliasi-page-information .blog-update a {
+    font-size: 12px;
+  }
 
   #Komisi .komisi-page {
-    padding: 20px; }
-    #Komisi .komisi-page .komisi-box {
-      display: block; }
-      #Komisi .komisi-page .komisi-box-half {
-        margin-bottom: 10px;
-        padding: 20px; }
-        #Komisi .komisi-page .komisi-box-half:last-child {
-          margin-bottom: 0px; }
-        #Komisi .komisi-page .komisi-box-half p.title {
-          font-size: 14px; }
-        #Komisi .komisi-page .komisi-box-half p.price {
-          font-size: 24px;
-          line-height: 30px; }
-    #Komisi .komisi-page .komisi-action .title p {
-      font-size: 20px; }
-    #Komisi .komisi-page .komisi-action .button-action .button {
-      padding: 10px 15px;
-      font-size: 14px;
-      width: 100%; }
-      #Komisi .komisi-page .komisi-action .button-action .button i {
-        margin-right: 5px;
-        vertical-align: middle;
-        width: 24px;
-        background-size: contain;
-        height: 19px; }
+    padding: 20px;
+  }
+  #Komisi .komisi-page .komisi-box {
+    display: block;
+  }
+  #Komisi .komisi-page .komisi-box-half {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  #Komisi .komisi-page .komisi-box-half:last-child {
+    margin-bottom: 0px;
+  }
+  #Komisi .komisi-page .komisi-box-half p.title {
+    font-size: 14px;
+  }
+  #Komisi .komisi-page .komisi-box-half p.price {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #Komisi .komisi-page .komisi-action .title p {
+    font-size: 20px;
+  }
+  #Komisi .komisi-page .komisi-action .button-action .button {
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 100%;
+  }
+  #Komisi .komisi-page .komisi-action .button-action .button i {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 24px;
+    background-size: contain;
+    height: 19px;
+  }
 
   #Training.content-area h2.page-title.training {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   #Training.content-area .training-page ul.nav.nav-tabs li.nav-item {
-    width: 32%; }
-    #Training.content-area .training-page ul.nav.nav-tabs li.nav-item .nav-link {
-      padding: 10px 0px;
-      font-size: 12px; }
+    width: 32%;
+  }
+  #Training.content-area .training-page ul.nav.nav-tabs li.nav-item .nav-link {
+    padding: 10px 0px;
+    font-size: 12px;
+  }
   #Training.content-area .training-page .tab-content {
-    padding: 20px; }
-    #Training.content-area .training-page .tab-content .training-tab-panel.training-tab-tools {
-      padding: 0px; }
-    #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download {
-      padding: 0px; }
-      #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download-desc {
-        font-size: 12px; }
-      #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download {
-        padding: 10px; }
-        #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download-desc {
-          font-size: 12px; }
-        #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download .button.btn-download {
-          font-size: 14px;
-          margin-top: 20px; }
+    padding: 20px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel.training-tab-tools {
+    padding: 0px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download {
+    padding: 0px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download-desc {
+    font-size: 12px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download {
+    padding: 10px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download-desc {
+    font-size: 12px;
+  }
+  #Training.content-area .training-page .tab-content .training-tab-panel .training-tab-tools-download .box-download .button.btn-download {
+    font-size: 14px;
+    margin-top: 20px;
+  }
 
   #Update .update-page-header {
-    padding: 15px; }
+    padding: 15px;
+  }
   #Update .update-page-content {
-    padding: 15px; }
-    #Update .update-page-content-top {
-      padding-bottom: 20px;
-      margin-bottom: 20px; }
-      #Update .update-page-content-top .button.btn-edit {
-        margin-top: 10px;
-        width: 100%;
-        font-size: 14px;
-        height: auto; }
-    #Update .update-page-content-bottom .update-cta .button.btn-upgrade {
-      width: 100%;
-      font-size: 14px; }
-      #Update .update-page-content-bottom .update-cta .button.btn-upgrade .icon {
-        margin-right: 5px;
-        width: 24px;
-        height: 24px;
-        background-size: contain; }
+    padding: 15px;
+  }
+  #Update .update-page-content-top {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  #Update .update-page-content-top .button.btn-edit {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 14px;
+    height: auto;
+  }
+  #Update .update-page-content-bottom .update-cta .button.btn-upgrade {
+    width: 100%;
+    font-size: 14px;
+  }
+  #Update .update-page-content-bottom .update-cta .button.btn-upgrade .icon {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+  }
 
   #Shop .shop-search .form-search {
     display: flex;
     margin-bottom: 10px;
-    justify-content: space-between; }
-    #Shop .shop-search .form-search .field-input {
-      font-family: 'Karla', sans-serif;
-      font-size: 12px;
-      padding: 0px 10px;
-      width: 100%;
-      height: 40px; }
-    #Shop .shop-search .form-search a {
-      display: inline-block;
-      padding: 0px 7px;
-      height: 40px;
-      background-color: #ffffff;
-      border-left: 1px solid #dfdfdf; }
+    justify-content: space-between;
+  }
+  #Shop .shop-search .form-search .field-input {
+    font-family: "Karla", sans-serif;
+    font-size: 12px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 40px;
+  }
+  #Shop .shop-search .form-search a {
+    display: inline-block;
+    padding: 0px 7px;
+    height: 40px;
+    background-color: #ffffff;
+    border-left: 1px solid #dfdfdf;
+  }
   #Shop.content-area h2.page-title.shop {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+  }
   #Shop .shop-page-header {
-    padding: 15px; }
-    #Shop .shop-page-header .category {
-      margin-bottom: 10px;
-      border-bottom: 1px solid #e2e2e2;
-      padding-bottom: 10px; }
-      #Shop .shop-page-header .category .title {
-        flex: 0 0 54%; }
-      #Shop .shop-page-header .category .form-control {
-        width: 46%; }
-    #Shop .shop-page-header .cart-box {
-      justify-content: space-between; }
+    padding: 15px;
+  }
+  #Shop .shop-page-header .col-flex {
+    display: block;
+  }
+  #Shop .shop-page-header .col-flex .category, #Shop .shop-page-header .col-flex .drop-place {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    display: block;
+  }
+  #Shop .shop-page-header .col-flex .category .title, #Shop .shop-page-header .col-flex .drop-place .title {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #Shop .shop-page-header .col-flex .category .form-control, #Shop .shop-page-header .col-flex .drop-place .form-control {
+    width: 100%;
+  }
+  #Shop .shop-page-header .cart-box {
+    justify-content: space-between;
+  }
   #Shop .shop-page-content-box {
-    display: block; }
-    #Shop .shop-page-content-box .product {
-      border-left: 1px solid #dfdfdf; }
+    display: block;
+  }
+  #Shop .shop-page-content-box .product {
+    border-left: 1px solid #dfdfdf;
+  }
   #Shop .shop-page-footer {
-    padding: 10px; }
-    #Shop .shop-page-footer .pagination ul.pagination-list {
-      text-align: center; }
-    #Shop .shop-page-footer .pagination ul li a {
-      padding: 0px 7px; }
+    padding: 10px;
+  }
+  #Shop .shop-page-footer .pagination ul.pagination-list {
+    text-align: center;
+  }
+  #Shop .shop-page-footer .pagination ul li a {
+    padding: 0px 7px;
+  }
 
   #DetailProduct .detail-page-header {
-    padding: 15px; }
-    #DetailProduct .detail-page-header .cart-box {
-      justify-content: space-between; }
+    padding: 15px;
+  }
+  #DetailProduct .detail-page-header .cart-box {
+    justify-content: space-between;
+  }
   #DetailProduct .detail-page-content {
-    padding: 20px; }
-    #DetailProduct .detail-page-content .product-area {
-      margin-bottom: 20px; }
-      #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy, #DetailProduct .detail-page-content .product-area .button-buy a.btn-add {
-        width: 100%; }
-    #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td {
-      padding: 8px 5px;
-      font-size: 14px; }
+    padding: 20px;
+  }
+  #DetailProduct .detail-page-content .product-area {
+    margin-bottom: 20px;
+  }
+  #DetailProduct .detail-page-content .product-area .button-buy a.btn-buy, #DetailProduct .detail-page-content .product-area .button-buy a.btn-add {
+    width: 100%;
+  }
+  #DetailProduct .detail-page-content .description-product .table-responsive table tbody tr td {
+    padding: 8px 5px;
+    font-size: 14px;
+  }
 
   #Payment .payment-page-header {
-    padding: 15px; }
+    padding: 15px;
+  }
   #Payment .payment-page-content {
-    padding: 20px; }
-    #Payment .payment-page-content.table {
-      padding: 0px; }
-      #Payment .payment-page-content.table table thead tr th {
-        padding: 10px; }
-        #Payment .payment-page-content.table table thead tr th:first-child, #Payment .payment-page-content.table table thead tr th:last-child {
-          padding: 10px; }
-      #Payment .payment-page-content.table table tbody tr td {
-        padding: 10px; }
-        #Payment .payment-page-content.table table tbody tr td:first-child, #Payment .payment-page-content.table table tbody tr td:last-child {
-          padding: 10px; }
-        #Payment .payment-page-content.table table tbody tr td .form-control {
-          width: 100%; }
-        #Payment .payment-page-content.table table tbody tr td:nth-child(4) {
-          white-space: nowrap; }
-      #Payment .payment-page-content.table table tfoot tr td {
-        padding: 20px 10px; }
-        #Payment .payment-page-content.table table tfoot tr td:first-child {
-          padding: 20px 10px; }
-    #Payment .payment-page-content.summary {
-      padding: 20px 0px; }
-      #Payment .payment-page-content.summary .summary-table table tr td {
-        padding: 10px;
-        vertical-align: middle; }
-        #Payment .payment-page-content.summary .summary-table table tr td:nth-child(2) {
-          white-space: nowrap; }
-      #Payment .payment-page-content.summary .button-confirm {
-        padding: 0px 10px; }
-        #Payment .payment-page-content.summary .button-confirm a.btn-confirm {
-          margin-top: 20px;
-          padding: 12px 0px;
-          width: 100%; }
+    padding: 20px;
+  }
+  #Payment .payment-page-content.table {
+    padding: 0px;
+  }
+  #Payment .payment-page-content.table table thead tr th {
+    padding: 10px;
+  }
+  #Payment .payment-page-content.table table thead tr th:first-child, #Payment .payment-page-content.table table thead tr th:last-child {
+    padding: 10px;
+  }
+  #Payment .payment-page-content.table table tbody tr td {
+    padding: 10px;
+  }
+  #Payment .payment-page-content.table table tbody tr td:first-child, #Payment .payment-page-content.table table tbody tr td:last-child {
+    padding: 10px;
+  }
+  #Payment .payment-page-content.table table tbody tr td .form-control {
+    width: 100%;
+  }
+  #Payment .payment-page-content.table table tbody tr td:nth-child(4) {
+    white-space: nowrap;
+  }
+  #Payment .payment-page-content.table table tfoot tr td {
+    padding: 20px 10px;
+  }
+  #Payment .payment-page-content.table table tfoot tr td:first-child {
+    padding: 20px 10px;
+  }
+  #Payment .payment-page-content.summary {
+    padding: 20px 0px;
+  }
+  #Payment .payment-page-content.summary .summary-table table tr td {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  #Payment .payment-page-content.summary .summary-table table tr td:nth-child(2) {
+    white-space: nowrap;
+  }
+  #Payment .payment-page-content.summary .button-confirm {
+    padding: 0px 10px;
+  }
+  #Payment .payment-page-content.summary .button-confirm a.btn-confirm {
+    margin-top: 20px;
+    padding: 12px 0px;
+    width: 100%;
+  }
 
   #OrderSuccess .order-success-page-header {
-    padding: 20px; }
-    #OrderSuccess .order-success-page-header p.title {
-      font-size: 18px; }
-    #OrderSuccess .order-success-page-header p.subtitle {
-      font-size: 16px; }
-    #OrderSuccess .order-success-page-header .bank-info {
-      margin-bottom: 20px; }
+    padding: 20px;
+  }
+  #OrderSuccess .order-success-page-header p.title {
+    font-size: 18px;
+  }
+  #OrderSuccess .order-success-page-header p.subtitle {
+    font-size: 16px;
+  }
+  #OrderSuccess .order-success-page-header .bank-info {
+    margin-bottom: 20px;
+  }
 
   #OrderHistory .header-filter {
     padding: 20px;
-    display: block; }
-    #OrderHistory .header-filter-block {
-      width: 100%;
-      margin-bottom: 10px; }
-      #OrderHistory .header-filter-block.search {
-        width: 100%;
-        border-left: 1px solid #ced4da;
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px; }
+    display: block;
+  }
+  #OrderHistory .header-filter-block {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #OrderHistory .header-filter-block.search {
+    width: 100%;
+    border-left: 1px solid #ced4da;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
   #OrderHistory .order-history-page .detail-box-header {
-    padding: 20px; }
-    #OrderHistory .order-history-page .detail-box-header .col-xs-12 {
-      margin-bottom: 15px; }
-      #OrderHistory .order-history-page .detail-box-header .col-xs-12:last-child {
-        margin-bottom: 0px; }
+    padding: 20px;
+  }
+  #OrderHistory .order-history-page .detail-box-header .col-xs-12 {
+    margin-bottom: 15px;
+  }
+  #OrderHistory .order-history-page .detail-box-header .col-xs-12:last-child {
+    margin-bottom: 0px;
+  }
   #OrderHistory .order-history-page .detail-box-content {
-    padding: 20px; }
-    #OrderHistory .order-history-page .detail-box-content .col-xs-12 {
-      margin-bottom: 15px; }
-      #OrderHistory .order-history-page .detail-box-content .col-xs-12:last-child {
-        margin-bottom: 0px; }
-    #OrderHistory .order-history-page .detail-box-content .button-confirm a.button {
-      width: 100%; }
+    padding: 20px;
+  }
+  #OrderHistory .order-history-page .detail-box-content .col-xs-12 {
+    margin-bottom: 15px;
+  }
+  #OrderHistory .order-history-page .detail-box-content .col-xs-12:last-child {
+    margin-bottom: 0px;
+  }
+  #OrderHistory .order-history-page .detail-box-content .button-confirm a.button {
+    width: 100%;
+  }
 
   #OrderDetailHistory .page-title.shop {
-    font-size: 20px !important; }
+    font-size: 20px !important;
+  }
   #OrderDetailHistory .order-detail-history-page .header {
-    padding: 20px; }
+    padding: 20px;
+  }
   #OrderDetailHistory .order-detail-history-page.content .detail-address {
-    padding: 0px 20px 20px; }
-    #OrderDetailHistory .order-detail-history-page.content .detail-address .col-xs-12 {
-      margin-bottom: 15px; }
+    padding: 0px 20px 20px;
+  }
+  #OrderDetailHistory .order-detail-history-page.content .detail-address .col-xs-12 {
+    margin-bottom: 15px;
+  }
   #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th {
-    padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:last-child {
-      padding: 10px; }
+    padding: 10px;
+  }
+  #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table thead tr th:last-child {
+    padding: 10px;
+  }
   #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td {
-    padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:last-child {
-      padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(3), #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(4) {
-      white-space: nowrap; }
-    #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td .product {
-      display: block; }
+    padding: 10px;
+  }
+  #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:first-child, #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:last-child {
+    padding: 10px;
+  }
+  #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(3), #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td:nth-child(4) {
+    white-space: nowrap;
+  }
+  #OrderDetailHistory .order-detail-history-page.content .table-detail-item table tbody tr td .product {
+    display: block;
+  }
   #OrderDetailHistory .order-detail-history-page.footer {
-    padding: 10px; }
-    #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li {
-      width: 26.3%; }
+    padding: 10px;
+  }
+  #OrderDetailHistory .order-detail-history-page.footer .notification-info ul.steps li {
+    width: 26.3%;
+  }
 
   #PaymentConfirm .payment-confirm-page {
-    padding: 20px; }
-    #PaymentConfirm .payment-confirm-page p.title {
-      width: 100%;
-      font-size: 13px; }
-    #PaymentConfirm .payment-confirm-page .form {
-      width: 100%; }
+    padding: 20px;
+  }
+  #PaymentConfirm .payment-confirm-page p.title {
+    width: 100%;
+    font-size: 13px;
+  }
+  #PaymentConfirm .payment-confirm-page .form {
+    width: 100%;
+  }
 
   #Login .login-box {
-    display: block; }
-    #Login .login-box-half.green-area {
-      display: none; }
-    #Login .login-box-half.form-area {
-      background: linear-gradient(315deg, #077d72 0%, #3fae66 100%);
-      width: 100%;
-      padding: 20px; }
-      #Login .login-box-half.form-area .login-box-half-centered {
-        width: 100%;
-        padding: 20px; }
-      #Login .login-box-half.form-area .login-form-title {
-        color: #ffffff; }
-      #Login .login-box-half.form-area .login-form form.login-form label {
-        color: #ffffff; }
-      #Login .login-box-half.form-area .login-form form.login-form .form-control {
-        border-radius: 0px;
-        background-color: transparent;
-        border-color: #e4f2e9;
-        font-family: 'Karla', sans-serif;
-        font-size: 13px;
-        color: #ffffff; }
-      #Login .login-box-half.form-area .login-form .forget-area .text-link {
-        color: #ffffff; }
+    display: block;
+  }
+  #Login .login-box-half.green-area {
+    display: none;
+  }
+  #Login .login-box-half.form-area {
+    background: linear-gradient(315deg, #077d72 0%, #3fae66 100%);
+    width: 100%;
+    padding: 20px;
+  }
+  #Login .login-box-half.form-area .login-box-half-centered {
+    width: 100%;
+    padding: 20px;
+  }
+  #Login .login-box-half.form-area .login-form-title {
+    color: #ffffff;
+  }
+  #Login .login-box-half.form-area .login-form form.login-form label {
+    color: #ffffff;
+  }
+  #Login .login-box-half.form-area .login-form form.login-form .form-control {
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: #e4f2e9;
+    font-family: "Karla", sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  #Login .login-box-half.form-area .login-form .forget-area .text-link {
+    color: #ffffff;
+  }
 
   #Register .register-box {
-    display: block; }
-    #Register .register-box-half.green-area {
-      display: none; }
-    #Register .register-box-half.form-area {
-      background: linear-gradient(315deg, #077d72 0%, #3fae66 100%);
-      width: 100%;
-      padding: 20px; }
-      #Register .register-box-half.form-area .register-box-half-centered {
-        width: 100%;
-        padding: 20px; }
-      #Register .register-box-half.form-area .register-form-title {
-        color: #ffffff;
-        margin-bottom: 5px; }
-      #Register .register-box-half.form-area .register-form .login-link {
-        color: #ffffff; }
-      #Register .register-box-half.form-area .register-form form.registration label {
-        color: #ffffff; }
-      #Register .register-box-half.form-area .register-form form.registration .form-control {
-        border-radius: 0px;
-        background-color: transparent;
-        border-color: #e4f2e9;
-        font-family: 'Karla', sans-serif;
-        font-size: 13px;
-        color: #ffffff; }
-      #Register .register-box-half.form-area .register-form form.registration .mb-3 {
-        margin-bottom: 5px !important; }
-      #Register .register-box-half.form-area .register-form form.registration .button.btn-submit {
-        margin-bottom: 5px; }
+    display: block;
+  }
+  #Register .register-box-half.green-area {
+    display: none;
+  }
+  #Register .register-box-half.form-area {
+    background: linear-gradient(315deg, #077d72 0%, #3fae66 100%);
+    width: 100%;
+    padding: 20px;
+  }
+  #Register .register-box-half.form-area .register-box-half-centered {
+    width: 100%;
+    padding: 20px;
+  }
+  #Register .register-box-half.form-area .register-form-title {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  #Register .register-box-half.form-area .register-form .login-link {
+    color: #ffffff;
+  }
+  #Register .register-box-half.form-area .register-form form.registration label {
+    color: #ffffff;
+  }
+  #Register .register-box-half.form-area .register-form form.registration .form-control {
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: #e4f2e9;
+    font-family: "Karla", sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  #Register .register-box-half.form-area .register-form form.registration .mb-3 {
+    margin-bottom: 5px !important;
+  }
+  #Register .register-box-half.form-area .register-form form.registration .button.btn-submit {
+    margin-bottom: 5px;
+  }
 
   #Support .support-page-header {
-    padding: 15px 0px; }
+    padding: 15px 0px;
+  }
   #Support .support-page-content {
     width: 100%;
-    padding: 20px; }
-    #Support .support-page-content .support-form .button-cta .button {
-      width: 100%; } }
+    padding: 20px;
+  }
+  #Support .support-page-content .support-form .button-cta .button {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=mainstyle.css.map */

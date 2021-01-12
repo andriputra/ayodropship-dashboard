@@ -1,122 +1,172 @@
 #Shop .shop-page {
-  background-color: #ffffff; }
-  #Shop .shop-page-header {
-    border-bottom: 1px solid #dfdfdf;
-    padding: 15px 50px; }
-    #Shop .shop-page-header .category {
-      display: flex;
-      align-items: center; }
-      #Shop .shop-page-header .category .title {
-        flex: 0 0 30%;
-        margin-bottom: 0px;
-        font-weight: 600;
-        color: #404040; }
-      #Shop .shop-page-header .category .form-control {
-        width: 40%;
-        border-radius: 0px;
-        border: 1px solid #dfdfdf;
-        font-size: 14px;
-        font-family: 'Karla', sans-serif; }
-    #Shop .shop-page-header .cart-box {
-      text-align: right;
-      display: flex;
-      justify-content: flex-end; }
-      #Shop .shop-page-header .cart-box .amount {
-        font-family: 'Karla', sans-serif;
-        font-size: 16px;
-        color: #404040;
-        font-weight: 600;
-        margin-right: 20px; }
-      #Shop .shop-page-header .cart-box .cart {
-        display: flex;
-        position: relative; }
-        #Shop .shop-page-header .cart-box .cart i.icon-cart {
-          background-image: url("../img/cart.png");
-          background-repeat: no-repeat;
-          width: 35px;
-          height: 24px;
-          background-size: contain;
-          display: block; }
-        #Shop .shop-page-header .cart-box .cart .counter {
-          color: #ffffff;
-          font-size: 9px;
-          display: inline-block;
-          border-radius: 50%;
-          line-height: 14px;
-          text-align: center;
-          background-color: #ef2753;
-          height: 14px;
-          width: 14px;
-          position: absolute;
-          right: 0px;
-          top: -5px; }
-  #Shop .shop-page-content-box {
-    display: flex;
-    align-items: center; }
-    #Shop .shop-page-content-box .product {
-      flex: 0 0 25%;
-      border-bottom: 1px solid #dfdfdf;
-      border-right: 1px solid #dfdfdf;
-      position: relative; }
-      #Shop .shop-page-content-box .product:last-child {
-        border-right: none; }
-      #Shop .shop-page-content-box .product .img-product {
-        margin-bottom: 10px; }
-      #Shop .shop-page-content-box .product .desc-product {
-        padding: 0px 45px;
-        margin-bottom: 15px; }
-        #Shop .shop-page-content-box .product .desc-product p {
-          margin-bottom: 0px; }
-          #Shop .shop-page-content-box .product .desc-product p.title-product {
-            margin-bottom: 10px;
-            font-weight: 600;
-            color: #404040; }
-          #Shop .shop-page-content-box .product .desc-product p.pricing {
-            color: #44b265;
-            font-weight: 600; }
-      #Shop .shop-page-content-box .product .button-buy {
-        display: block; }
-        #Shop .shop-page-content-box .product .button-buy a {
-          position: absolute;
-          background-color: #44b265;
-          top: 50%;
-          left: 20%;
-          color: #ffffff;
-          text-transform: uppercase;
-          font-size: 14px;
-          font-family: 'Karla', sans-serif;
-          display: block;
-          width: 60%;
-          border-radius: 5px;
-          padding: 10px;
-          font-weight: 600;
-          text-decoration: none; }
-          #Shop .shop-page-content-box .product .button-buy a:hover {
-            background-color: #00877a; }
-  #Shop .shop-page-footer {
-    padding: 30px 50px; }
-    #Shop .shop-page-footer .pagination {
-      text-align: right; }
-      #Shop .shop-page-footer .pagination ul.pagination-list {
-        display: block;
-        text-align: right;
-        margin-bottom: 0px;
-        list-style: none;
-        padding-left: 0px;
-        width: 100%; }
-      #Shop .shop-page-footer .pagination ul li {
-        display: inline-block; }
-        #Shop .shop-page-footer .pagination ul li a {
-          display: inline-block;
-          padding: 0px 10px;
-          color: #404040;
-          text-decoration: none;
-          font-family: 'Karla', sans-serif;
-          font-size: 15px;
-          font-weight: 600; }
-          #Shop .shop-page-footer .pagination ul li a.active {
-            color: #44b265; }
-          #Shop .shop-page-footer .pagination ul li a:hover {
-            color: #44b265; }
+  background-color: #ffffff;
+}
+#Shop .shop-page-header {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 15px 24px;
+}
+#Shop .shop-page-header .col-flex {
+  display: flex;
+}
+#Shop .shop-page-header .col-flex .drop-place {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+}
+#Shop .shop-page-header .col-flex .drop-place .title {
+  flex: 0 0 30%;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: #404040;
+}
+#Shop .shop-page-header .col-flex .drop-place .form-control {
+  width: 70%;
+  border-radius: 0px;
+  border: 1px solid #dfdfdf;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+}
+#Shop .shop-page-header .col-flex .category {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+}
+#Shop .shop-page-header .col-flex .category .title {
+  flex: 0 0 37%;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: #404040;
+}
+#Shop .shop-page-header .col-flex .category .form-control {
+  width: 40%;
+  border-radius: 0px;
+  border: 1px solid #dfdfdf;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+}
+#Shop .shop-page-header .cart-box {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+#Shop .shop-page-header .cart-box .amount {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #404040;
+  font-weight: 600;
+  margin-right: 20px;
+}
+#Shop .shop-page-header .cart-box .cart {
+  display: flex;
+  position: relative;
+}
+#Shop .shop-page-header .cart-box .cart i.icon-cart {
+  background-image: url("../img/cart.png");
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 24px;
+  background-size: contain;
+  display: block;
+}
+#Shop .shop-page-header .cart-box .cart .counter {
+  color: #ffffff;
+  font-size: 9px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 14px;
+  text-align: center;
+  background-color: #ef2753;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+}
+#Shop .shop-page-content-box {
+  display: flex;
+  align-items: center;
+}
+#Shop .shop-page-content-box .product {
+  flex: 0 0 25%;
+  border-bottom: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  position: relative;
+}
+#Shop .shop-page-content-box .product:last-child {
+  border-right: none;
+}
+#Shop .shop-page-content-box .product .img-product {
+  margin-bottom: 10px;
+}
+#Shop .shop-page-content-box .product .desc-product {
+  padding: 0px 45px;
+  margin-bottom: 15px;
+}
+#Shop .shop-page-content-box .product .desc-product p {
+  margin-bottom: 0px;
+}
+#Shop .shop-page-content-box .product .desc-product p.title-product {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #404040;
+}
+#Shop .shop-page-content-box .product .desc-product p.pricing {
+  color: #44b265;
+  font-weight: 600;
+}
+#Shop .shop-page-content-box .product .button-buy {
+  display: block;
+}
+#Shop .shop-page-content-box .product .button-buy a {
+  position: absolute;
+  background-color: #44b265;
+  top: 50%;
+  left: 20%;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  display: block;
+  width: 60%;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#Shop .shop-page-content-box .product .button-buy a:hover {
+  background-color: #00877a;
+}
+#Shop .shop-page-footer {
+  padding: 30px 50px;
+}
+#Shop .shop-page-footer .pagination {
+  text-align: right;
+}
+#Shop .shop-page-footer .pagination ul.pagination-list {
+  display: block;
+  text-align: right;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+#Shop .shop-page-footer .pagination ul li {
+  display: inline-block;
+}
+#Shop .shop-page-footer .pagination ul li a {
+  display: inline-block;
+  padding: 0px 10px;
+  color: #404040;
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+#Shop .shop-page-footer .pagination ul li a.active {
+  color: #44b265;
+}
+#Shop .shop-page-footer .pagination ul li a:hover {
+  color: #44b265;
+}
 
 /*# sourceMappingURL=shop.css.map */

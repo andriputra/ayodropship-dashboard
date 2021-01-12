@@ -5,22 +5,44 @@
         background-color: $white;
         &-header{
             border-bottom: 1px solid $softgray;
-            padding: 15px 50px;
-            .category{
+            padding: 15px 24px;
+            .col-flex{
                 display: flex;
-                align-items: center;
-                .title{
-                    flex: 0 0 30%;
-                    margin-bottom: 0px;
-                    font-weight: 600;
-                    color: $black;
+                .drop-place{
+                    display: flex;
+                    align-items: center;
+                    flex: 1 0 0;
+                    .title{
+                        flex: 0 0 30%;
+                        margin-bottom: 0px;
+                        font-weight: 600;
+                        color: $black;
+                    }
+                    .form-control{
+                        width: 70%;
+                        border-radius: 0px;
+                        border: 1px solid $softgray;
+                        font-size: 14px;
+                        font-family: 'Karla', sans-serif;
+                    }
                 }
-                .form-control{
-                    width: 40%;
-                    border-radius: 0px;
-                    border: 1px solid $softgray;
-                    font-size: 14px;
-                    font-family: 'Karla', sans-serif;
+                .category{
+                    display: flex;
+                    align-items: center;
+                    flex: 1 0 0;
+                    .title{
+                        flex: 0 0 37%;
+                        margin-bottom: 0px;
+                        font-weight: 600;
+                        color: $black;
+                    }
+                    .form-control{
+                        width: 40%;
+                        border-radius: 0px;
+                        border: 1px solid $softgray;
+                        font-size: 14px;
+                        font-family: 'Karla', sans-serif;
+                    }
                 }
             }
             .cart-box{
